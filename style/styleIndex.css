@@ -260,10 +260,18 @@ body {
     margin-top: 20px;
     font-size: 15px;
 }
+.primer h2:hover{
+    text-decoration: underline;
+    cursor: pointer;
+}
 .primer h3{
     display: flex;
     margin-top: 20px;
     color: #8A8A8A;
+}
+.primer h3:hover{
+    text-decoration: underline;
+    cursor: pointer;
 }
 .segundo{
     width: calc(100%/4);
@@ -274,10 +282,19 @@ body {
     margin-top: 20px;
     font-size: 15px;
 }
+.segundo h2:hover{
+    text-decoration: underline;
+    cursor: pointer;
+
+}
 .segundo h3{
     display: flex;
     margin-top: 20px;
     color: #8A8A8A;
+}
+.segundo h3:hover{
+    text-decoration: underline;
+    cursor: pointer;
 }
 .tercer{
     width: calc(100%/4);
@@ -288,10 +305,18 @@ body {
     margin-top: 20px;
     font-size: 15px;
 }
+.tercer h2:hover{
+    text-decoration: underline;
+    cursor: pointer;
+}
 .tercer h3{
     display: flex;
     margin-top: 20px;
     color: #8A8A8A;
+}
+.tercer h3:hover{
+    text-decoration: underline;
+    cursor: pointer;
 }
 .cuarto{
     color: #fff;
