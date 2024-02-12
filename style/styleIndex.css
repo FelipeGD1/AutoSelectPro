@@ -1,39 +1,234 @@
-*{
+* {
     padding: 0;
     margin: 0;
 }
-header{ 
-    margin: 15px;
+
+header {
+    padding: 15px;
     display: flex;
     justify-content: space-between;
 }
 
-.logo_nissan{
+.logo_nissan {
     width: 130px;
 }
 
-.menu{
+.menu {
     width: 650px;
 }
 
 
-.lista_menu{
+.lista_menu {
     display: flex;
     justify-content: space-around;
     list-style: none;
 }
 
-.a_menu{
+
+.a_menu {
     text-decoration: none;
 }
 
-.texto_menu{
+.texto_menu {
     font-size: 14px;
     font-weight: 500;
-    color: rgb(0, 0, 0);
+    color: white;
+    font-family: 'Encode Sans Semi Condensed', sans-serif;
 }
 
-.logo_menu{
-    width: 30px;
-    
+.texto_menu:hover {
+    opacity: 0.7;
+    transition: all 0.2s ease-in-out;
+}
+
+.logo_menu {
+    margin-top: -5px;
+    width: 20px;
+
+}
+
+body {
+    background-image: url(../img/cuadrito1.jpg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+
+.autoselectpro {
+    display: flex;
+    justify-content: end;
+    margin-top: -83px;
+    background-color: rgba(253, 253, 253, 0.116);
+}
+
+.autoselectpro_link {
+    text-decoration: none;
+    color: black;
+    font-family: 'Encode Sans Semi Condensed', sans-serif;
+    padding-right: 40px;
+    font-size: 17px;
+    font-weight: 500;
+    text-decoration: underline;
+}
+
+.info_banner {
+    margin-top: 90px;
+    margin-left: 30px;
+    color: white;
+    font-family: 'Encode Sans Semi Condensed';
+}
+
+.p1_banner {
+    letter-spacing: 1px;
+}
+
+.titulo_banner {
+    font-weight: 200;
+    letter-spacing: 4px;
+    font-size: 50px;
+    margin: 5px 0;
+}
+
+.p2_banner {
+    letter-spacing: 1px;
+    font-size: 14px;
+    margin-bottom: 30px;
+}
+
+.boton_banner {
+    padding: 15px 25px;
+    background-color: rgb(195, 0, 47);
+    color: white;
+    font-family: 'Encode Sans Semi Condensed';
+    font-weight: 500;
+    border: 0px;
+    border-radius: 1px;
+}
+
+
+.boton_banner:hover {
+    cursor: pointer;
+    opacity: 0.8;
+    transition: all 0.2s ease-in-out;
+
+}
+
+.imagenes_banner {
+    display: flex;
+    justify-content: center;
+    margin-top: 11%;
+}
+
+.img_banner {
+    width: 200px;
+    height: 120px;
+}
+
+.lista_automoviles {
+    display: flex;
+    list-style: none;
+    margin-left: 130px;
+}
+
+.texto_automoviles {
+    padding: 5px;
+    color: black;
+    font-family: 'Encode Sans Semi Condensed';
+    font-size: 14px;
+    margin-top: 50px;
+    padding-right: 20px;
+    font-weight: 1000;
+
+}
+
+.--destacados {
+    color: rgb(195, 0, 47);
+}
+
+.a_automoviles {
+    text-decoration: none;
+}
+
+.texto_automoviles:hover {
+    color: rgb(152, 2, 37);
+    transition: all 0.2s ease-in-out;
+}
+
+.automoviles {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin-left: 50px;
+    margin-top: 30px;
+}
+
+.carrito_boton {
+    padding-right: 60px;
+}
+
+.carrito_boton:hover {
+    transform: scale(1.05);
+    transition: all 0.3s ease-in-out;
+}
+
+.img_carritos {
+    width: 200px;
+}
+
+.--carrito6 {
+    margin-left: 130px;
+    margin-top: 30px;
+    width: 200px;
+}
+
+.p_carritos {
+    text-align: center;
+    padding-top: 30px;
+}
+
+.p_carritos:hover {
+    color: rgb(152, 2, 37);
+}
+
+.a_carritos {
+    text-decoration: none;
+    font-family: 'Encode Sans Semi Condensed';
+    color: black;
+    font-weight: 1000;
+}
+
+.info_gris {
+    display: flex;
+    justify-content: center;
+}
+
+.info_autoselectpro {
+    background-color: rgb(238, 234, 234);
+    width: 1200px;
+    margin: 40px 0;
+    padding: 50px 0;
+    font-family: 'Encode Sans Semi Condensed';
+    text-align: center;
+}
+
+.titulo_auto {
+    font-size: 27px;
+    letter-spacing: 2px;
+    font-weight: 450;
+    padding: 10px 0;
+}
+
+.p_autoselectpro {
+    font-size: 14px;
+    padding: 5px 40px;
+}
+
+.boton_autoselectpro {
+    padding: 15px 25px;
+    background-color: rgb(195, 0, 47);
+    color: white;
+    font-family: 'Encode Sans Semi Condensed';
+    font-weight: 500;
+    border: 0px;
+    border-radius: 1px;
+    margin: 30px 0 0 0;
 }
