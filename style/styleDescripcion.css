@@ -38,6 +38,100 @@ header{
     
 }
 
+.preMain1{
+    text-align: center;
+    padding: 25px;
+    font-family: "Nissan Light","Nissan Regular",Verdana,Arial,sans-serif;
+}
+
+.preTexto1{
+    font-weight: 100;
+    font-size: 30px;
+}
+
+.preMain2{
+    display: flex;
+    font-family: "Nissan Regular","Nissan Regular",Verdana,Arial,sans-serif;
+    justify-content: space-around;
+    padding: 20px;
+}
+
+.botonRojo1{
+    width: 200px;
+    height: 40px;
+    font-family: "Nissan Regular","Nissan Regular",Verdana,Arial,sans-serif;
+    background-color: #c3002f;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+.botonRojo1:hover{
+    background-color: #ac022a;
+}
+
+.imagenFondo{
+   background: url(../img/banner-principal-vehiculos-comerciales-v2.png.ximg.l_full_m.smart.png);
+   background-size: cover;
+   background-attachment: scroll;
+   height: 115vh;
+   display: flex;
+}
+
+.bloqueGris{
+    width: 500px;
+    height: 320px;
+    background: rgba(0,0,0,.6);
+    margin: 50px;
+    color: white;
+    font-family: "Nissan Regular","Nissan Regular",Verdana,Arial,sans-serif;
+}
+
+.titulobGris{
+    font-size: 30px;
+    padding: 15px;
+    font-weight: 100;
+}
+
+.textobGris{
+    padding: 15px;
+    font-size: 15px;
+}
+
+.lineaRoja1{
+    width: 50px;
+    height: 5px;
+    background-color: #ac022a;
+    margin: 30px auto 10px;
+}
+
+.primerTitulo{
+    text-align: center;
+    font-family: "Nissan Regular","Nissan Regular",Verdana,Arial,sans-serif;
+    padding: 20px;
+}
+
+.titulo1{
+    font-weight: 100;
+    font-size: 25px;
+}
+
+.seccionPrimera{
+    display: flex;
+    justify-content: space-around;
+}
+
+.imagen1{
+    width: 500px;
+    border-radius: 5px;
+}
+
+.texto1{
+    width: 600px;
+}
+
+
+
 /***********************************PRE FOOTER*******************************************/
 
 .prefooter{
