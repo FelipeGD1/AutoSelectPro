@@ -3,6 +3,7 @@
     margin: 0;
     font-family: "Nissan Light","Nissan Regular",Verdana,Arial,sans-serif;
 }
+
 header{ 
     margin: 15px;
     display: flex;
@@ -16,7 +17,6 @@ header{
 .menu{
     width: 650px;
 }
-
 
 .lista_menu{
     display: flex;
@@ -36,13 +36,11 @@ header{
 
 .logo_menu{
     width: 30px;
-    
 }
 
 .preMain1{
     text-align: center;
     padding: 25px;
-    font-family: "Nissan Light","Nissan Regular",Verdana,Arial,sans-serif;
 }
 
 .preTexto1{
@@ -52,7 +50,6 @@ header{
 
 .preMain2{
     display: flex;
-    font-family: "Nissan Regular","Nissan Regular",Verdana,Arial,sans-serif;
     justify-content: space-around;
     padding: 20px;
 }
@@ -60,7 +57,6 @@ header{
 .botonRojo1{
     width: 200px;
     height: 40px;
-    font-family: "Nissan Regular","Nissan Regular",Verdana,Arial,sans-serif;
     background-color: #c3002f;
     color: white;
     border: none;
@@ -69,6 +65,10 @@ header{
 
 .botonRojo1:hover{
     background-color: #ac022a;
+}
+
+.espacio1{
+    padding: 10px;
 }
 
 .imagenFondo{
@@ -85,7 +85,6 @@ header{
     background: rgba(0,0,0,.6);
     margin: 50px;
     color: white;
-    font-family: "Nissan Regular","Nissan Regular",Verdana,Arial,sans-serif;
 }
 
 .titulobGris{
@@ -108,7 +107,6 @@ header{
 
 .primerTitulo{
     text-align: center;
-    font-family: "Nissan Regular","Nissan Regular",Verdana,Arial,sans-serif;
     padding: 20px;
 }
 
@@ -122,15 +120,99 @@ header{
     justify-content: space-around;
 }
 
+.imagenc1{
+    padding: 15px;
+}
+
 .imagen1{
-    width: 500px;
+    width: 580px;
     border-radius: 5px;
 }
+
 
 .texto1{
     width: 600px;
 }
 
+.titulo2{
+    color: #343434;
+    padding: 15px;
+}
+
+.textoPrimero{
+    padding: 15px;
+}
+
+.seccionSegunda{
+    display: flex;
+    justify-content: space-around;
+}
+
+.texto2{
+    width: 600px;
+}
+
+.titulo3{
+    color: #343434;
+    padding: 15px;
+}
+
+.textoSegundo{
+    padding: 15px;
+}
+
+.imagenc2{
+    padding: 15px;
+}
+
+.imagen2{
+    width: 580px;
+    border-radius: 5px;
+}
+
+.lineaRoja2{
+    width: 50px;
+    height: 5px;
+    background-color: #ac022a;
+    margin: 30px auto 10px;
+}
+
+.segundoTitulo{
+    text-align: center;
+    padding: 20px;
+}
+
+.titulo4{
+    font-weight: 100;
+    font-size: 25px;
+}
+
+.seccionTercera{
+    display: flex;
+    justify-content: space-around;
+}
+
+.imagenc3{
+    padding: 15px;
+}
+
+.imagen3{
+    width: 580px;
+    border-radius: 5px;
+}
+
+.texto3{
+    width: 600px;
+}
+
+.textoTercero{
+    font-size: 25px;
+    padding: 15px;
+}
+
+.separacion{
+    padding: 100px;
+}
 
 
 /***********************************PRE FOOTER*******************************************/
@@ -146,7 +228,7 @@ header{
     padding-top: 30px;
     width: 30%;
     margin-left: 200px;
-    justify-content: space-between;
+    justify-content: space-around;
     color: #fff;
     font-size: 11px;
 }
@@ -164,9 +246,8 @@ header{
     width: 1510px;
     display: flex;
     justify-content: center;
-    justify-content: space-between;
+    justify-content: space-around;
     overflow: hidden;
-   
 }
 .primer{
     width: calc(100%/4);
@@ -258,8 +339,6 @@ header{
     transition: .3s;
     margin-top: 15px;
     margin-left: 15px;
-    
-
 }
 .redes2 a:hover{
     background-color: #970505;
