@@ -52,6 +52,9 @@ header{
     height: 100vh;
 }
 
+.autoselectpro{
+}
+
 .autoselectpro h2{
     display: flex;
     justify-content: flex-end;
@@ -62,6 +65,9 @@ header{
     padding-right: 45px;
     background-color: #801628bd;
     margin-top: -80px;
+}
+.autoselectpro img{
+    margin-left: 95%;
 }
 .quienesSomos{
     display: flex;
