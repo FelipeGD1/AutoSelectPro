@@ -1,44 +1,319 @@
-*{
-    padding: 0;
-    margin: 0;
-}
-header{ 
-    margin: 15px;
-    display: flex;
-    justify-content: space-between;
-}
-
-.logo_nissan{
-    width: 130px;
-}
-
-.menu{
-    width: 650px;
-}
-
-
-.lista_menu{
-    display: flex;
-    justify-content: space-around;
-    list-style: none;
-}
-
-.a_menu{
+* {
+    margin: 0px;
+    padding: 0px;
     text-decoration: none;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
-.texto_menu{
+body {
+    width: 100%;
+    height: 100%;
+    background-color: white;
+}
+
+#header {
+    width: 100%;
+    height: 150px;
+}
+
+#options {
+    display: flex;
+    align-items: center;
+    justify-content: end;
+    width: 100%;
+    height: 50%;
+}
+
+.option {
+    margin-right: 100px;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+#limit {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    height: 25%;
+    background-color: rgba(116, 114, 114, 0.26);
+}
+
+#title {
+    margin-right: 140px;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+#title:hover {
+    margin-right: 140px;
+    font-weight: bold;
+    color: red;
+}
+
+#isologo {
+    width: 125px;
+    height: 100px;
+}
+
+#text {
+    width: 300px;
+}
+
+#common {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    width: 100%;
+    height: 200px;
+    margin-top: 50px;
+}
+
+#imagotipo {
+    display: flex;
+    flex-wrap: wrap;
+    align-items:unset;
+    justify-content: center;
+    width: 100%;
+    height: 50%;
+}
+
+#logo {
+    width: 70px;
+    height: 60%;
+}
+
+#title-second {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    height: 20%;
+    font-weight:900;
+    font-style: italic;
     font-size: 14px;
-    font-weight: 500;
-    color: rgb(0, 0, 0);
+    letter-spacing: 3px;
+    text-transform: uppercase;
 }
 
-.logo_menu{
-    width: 30px;
-    
+.contents {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 30%;
+    height: 50%;
 }
-/***********************************PRE FOOTER*******************************************/
 
+.common-options {
+    font-size: 16px;
+}
+
+.row-below {
+    width: 50px;
+    height: 50px;
+}
+
+#container-information {
+    display: flex;
+    justify-content: end;
+    width: 100%;
+    height: 600px;
+    background-image: url("../resources/images/car-yellow.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 0px center;
+}
+
+#information {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    width: 32%;
+    height: 63%;
+    background: rgb(0, 0, 0, 0.64);
+    margin: 60px 140px 0px 0px;
+    border-radius: 2%;
+    padding: 50px;
+    color: white;
+}
+
+#information-title {
+    width: 350px;
+    font-weight: 900;
+    font-size: 20px;
+    font-style: italic;
+    letter-spacing: 3px;
+    text-align: center;
+    line-height: 35px;
+    text-transform: uppercase;
+}
+
+#information-data {
+    line-height: 30px;
+    font-size: 15px;
+    letter-spacing: 5px;
+    text-align: center;
+    word-spacing: 15px;
+}
+
+#information-button {
+    width: 150px;
+    height: 38px;
+    margin-left: 160px;
+    color: white;
+    font-style: italic;
+    font-weight: 900;
+    border-color: transparent;
+    background: rgba(190, 7, 7, 0.44);
+}
+
+#container-doubts {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    width: 100%;
+    height: 900px;
+    margin-top: 50px;
+}
+
+#doubts-title {
+    text-align: center;
+    height: 50px;
+    padding-top: 20px;
+    font-size: 20px;
+    font-style: italic;
+    font-weight: 900;
+    border-top: red 10px solid;
+    text-transform: uppercase;
+}
+
+#doubts-data {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    height: 600px;
+}
+
+#doubts-data-title {
+    width: 100%;
+    padding-left: 150px;
+    font-weight: 900;
+    font-size: 17px;
+    color: red;
+    font-style: italic;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+}
+
+#doubts-data-data {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 42%;
+    font-size: 17px;
+    margin-top: 60px;
+    padding-left: 120px;
+    line-height: 30px;
+}
+
+#staff {
+    width: 600px;
+    height: 400px;
+    margin-top: -100px;
+    margin-right: 100px;
+}
+
+#doubts-button {
+    width: 200px;
+    height: 50px;
+    margin-left: 1400px;
+    font-size: 17px;
+    font-style: italic;
+    font-weight: 900;
+    border-color: transparent;
+    background: rgba(190, 7, 7, 0.44);
+}
+
+#container-chatbot {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    height: 900px;
+}
+
+#chatbot-title {
+    width: 280px;
+    font-size: 40px;
+    font-weight: 900;
+    text-align: center;
+    font-style: italic;
+    text-transform: uppercase;
+    padding-top: 60px;
+    margin-top: -150px;
+    margin-left: 450px;
+    border-top: rgba(195, 33, 33, 1) 10px solid;
+}
+
+#chatbot-data {
+    display: flex;
+    align-items: end;
+    justify-content: end;
+    width: 50%;
+    height: 100%;
+}
+
+#chatbot-form {
+    display: none;
+    flex-direction: column;
+    justify-content: end;
+    align-items: end;
+    width: 450px;
+    height: 550px;
+    margin-bottom: 170px;
+    background-color: gray;
+    border-radius: 2%;
+    padding: 50px;
+    color: white;
+}
+
+.chatbot-text {
+    width: 65%;
+    margin-right: 20px;
+    letter-spacing: 3px;
+    word-spacing: 4px;
+    font-weight: 900;
+}
+
+.chatbot-img {
+    width: 50px;
+    height: 50px;
+}
+
+#chatbot-button {
+    width: 150px;
+    height: 38px;
+    margin-right: 90px;
+    color: white;
+    font-style: italic;
+    font-weight: 900;
+    border-color: transparent;
+    background: rgba(190, 7, 7, 0.44);
+}
+
+#logo-chat {
+    margin: 0px 50px 50px 0px;
+    width: 150px;
+    height: 150px;
+    background-image: url("../resources/images/logo-chat.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 0px center;
+    border-color: transparent;
+}
 .prefooter{
     height: 80px;
     width: 100%;
@@ -55,7 +330,7 @@ header{
     font-size: 11px;
 }
 
-/***********************************FOOTER*******************************************/
+
 .footer{
     height: 400px;
     width: 100%;
