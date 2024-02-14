@@ -1,105 +1,127 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>NOSOTROS</title>
     <link rel="stylesheet" href="../style/styleContactenos.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+        integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <script src='https://kit.fontawesome.com/a076d05399.js' crossorigin='anonymous'></script>
 </head>
+
 <body>
     <header>
-        <div class="logo"><a href="index.html"><img src="../img/nissan2020.png" alt="Logo de nissan"class="logo_nissan"></a></div>
+        <div class="logo"><a href="index.html"><img src="../img/nissan2020.png" alt="Logo de nissan"
+                    class="logo_nissan"></a></div>
         <nav class="menu">
-            <ul  class="lista_menu">
-                <li><a href="index.html" class="a_menu"><h2 class="texto_menu">INICIO</h2></a></li>
-                <li><a href="descripcion.html" class="a_menu"><h2 class="texto_menu">DESCRIPCIÓN</h2></a></li>
-                <li><a href="nosotros.html" class="a_menu"><h2 class="texto_menu">QUIENES SOMOS</h2></a></li>
-                <li><a href="contactenos.html" class="a_menu"><h2 class="texto_menu">CONTACTENOS</h2></a></li>
+            <ul class="lista_menu">
+                <li><a href="index.html" class="a_menu">
+                        <h2 class="texto_menu">INICIO</h2>
+                    </a></li>
+                <li><a href="descripcion.html" class="a_menu">
+                        <h2 class="texto_menu">DESCRIPCIÓN</h2>
+                    </a></li>
+                <li><a href="nosotros.html" class="a_menu">
+                        <h2 class="texto_menu">QUIENES SOMOS</h2>
+                    </a></li>
+                <li><a href="contactenos.html" class="a_menu">
+                        <h2 class="texto_menu">CONTACTENOS</h2>
+                    </a></li>
+                <a class="login" href=""><i class='fas fa-user-circle' style='font-size:25px;color:black;'></i></a>
                 <a href=""><img src="../img/menu_negro.png" alt="icono de menu" class="logo_menu"></a>
-            </ul>            
+
+            </ul>
         </nav>
     </header>
     <div class="contenedor">
         <h1 class="titulo">FORMULARIO DE CONTACTO NISSAN</h1>
-    <p class="informacion" >Puedes comunicarte con nosotros a través de la línea nacional gratuita <strong>01 <br> 
-        8000 423854</strong> o <strong>031-4866870</strong> de 7:00 a.m. a 6:00 p.m. de lunes a viernes y de <br>
-        7:00 a.m. a 1:00 p.m. los sábados, o si lo deseas puedes enviarnos un mensaje <br>
-        en el siguiente formulario:</p>
-    <form "form" action="/enviar" method="post">
-        <label for="nombre">Nombre completo *</label>
-        <input type="text" id="nombre" name="nombre" required><br>
-
-        <label for="apellido1">Primer Apellido *</label>
-        <input type="text" id="apellido1" name="apellido1" required><br>
-
-        <label for="apellido2">Segundo Apellido</label>
-        <input type="text" id="apellido2" name="apellido2" required><br>
-
-        <label for="genero">Género</label>
-        <select id="genero" name="genero">
-            <option value="Seleccione">Seleccione</option>
-            <option value="masculino">Masculino</option>
-            <option value="femenino">Femenino</option>
-        </select><br>
-
-        <label for="tipoDocumento">Tipo de Documento *</label>
-        <select id="tipoDocumento" name="tipoDocumento">
-            <option value="Seleciona tipo">Seleciona tipo</option>
-            <option value="Cedula de ciudadania">Cedula de ciudadania</option>
-            <option value="Cedula de extranjeria">Cedula de extranjeria</option>
-            <option value="Pasaporte">Pasaporte</option>
-            <option value="Tarjeta de identidad">Tarjeta de identidad</option>
-        </select><br>
-
-        <label for="numeroDocumento">Número de Documento *</label>
-        <input type="text" id="numeroDocumento" name="numeroDocumento" required><br>
-
-        <label for="correo">Correo Electrónico</label>
-        <input type="email" id="correo" name="correo" required><br>
-
-        <label for="celular">Celular *
-</label>
-        <input type="tel" id="celular" name="celular" required><br>
-
-        <label for="Departamento">Departamento *</label>
-        <select id="Departamento" name="Departamento">
-            <option value="Departamento">Departamento</option>
-            <option value="Antioquia">Antioquia</option>
-            <option value="Atlantico">Atlantico</option>
-            <option value="Tolima">Tolima</option>
-            <option value="Bolivar">Bolivar</option>
-        </select><br>
-
-        <label for="Ciudad">Ciudad *</label>
-        <select id="Ciudad" name="Ciudad">
-            <option value="Ciudad">Ciudad</option>
-            <option value="Copacabana">Copacabana</option>
-            <option value="Barranquilla">Barranquilla</option>
-            <option value="Ibague">Ibague</option>
-            <option value="Magangue">Magangue</option>
-        </select><br>
-        
-        <label for="mensaje">Mensaje</label>        
-        <textarea id="mensaje" name="mensaje" rows="4" required></textarea><br>
-        <form>                  
-            <hr>                  
-        </form>
-
-        <p class="leido" >Autorización de tratamiento de datos personales
-            <br>      
+        <p class="informacion">Puedes comunicarte con nosotros a través de la línea nacional gratuita <strong>01 <br>
+                8000 423854</strong> o <strong>031-4866870</strong> de 7:00 a.m. a 6:00 p.m. de lunes a viernes y de
             <br>
-        <input type="checkbox" id="acceptTerms" ><label for="acceptTerms"><p class="leido2" >He leido y acepto las Politicas de privacidad * </label></p></p>
-        <br>
-            
-        <div class="container">    
-            <button class="boton-enviar">ENVIAR</button>
-        </div>
-       <p class="obligatorio" >* Campo obligatorio</p>
-    </form>
+            7:00 a.m. a 1:00 p.m. los sábados, o si lo deseas puedes enviarnos un mensaje <br>
+            en el siguiente formulario:
+        </p>
+        <form "form" action="/enviar" method="post">
+            <label for="nombre">Nombre completo *</label>
+            <input type="text" id="nombre" name="nombre" required><br>
+
+            <label for="apellido1">Primer Apellido *</label>
+            <input type="text" id="apellido1" name="apellido1" required><br>
+
+            <label for="apellido2">Segundo Apellido</label>
+            <input type="text" id="apellido2" name="apellido2" required><br>
+
+            <label for="genero">Género</label>
+            <select id="genero" name="genero">
+                <option value="Seleccione">Seleccione</option>
+                <option value="masculino">Masculino</option>
+                <option value="femenino">Femenino</option>
+            </select><br>
+
+            <label for="tipoDocumento">Tipo de Documento *</label>
+            <select id="tipoDocumento" name="tipoDocumento">
+                <option value="Seleciona tipo">Seleciona tipo</option>
+                <option value="Cedula de ciudadania">Cedula de ciudadania</option>
+                <option value="Cedula de extranjeria">Cedula de extranjeria</option>
+                <option value="Pasaporte">Pasaporte</option>
+                <option value="Tarjeta de identidad">Tarjeta de identidad</option>
+            </select><br>
+
+            <label for="numeroDocumento">Número de Documento *</label>
+            <input type="text" id="numeroDocumento" name="numeroDocumento" required><br>
+
+            <label for="correo">Correo Electrónico</label>
+            <input type="email" id="correo" name="correo" required><br>
+
+            <label for="celular">Celular *
+            </label>
+            <input type="tel" id="celular" name="celular" required><br>
+
+            <label for="Departamento">Departamento *</label>
+            <select id="Departamento" name="Departamento">
+                <option value="Departamento">Departamento</option>
+                <option value="Antioquia">Antioquia</option>
+                <option value="Atlantico">Atlantico</option>
+                <option value="Tolima">Tolima</option>
+                <option value="Bolivar">Bolivar</option>
+            </select><br>
+
+            <label for="Ciudad">Ciudad *</label>
+            <select id="Ciudad" name="Ciudad">
+                <option value="Ciudad">Ciudad</option>
+                <option value="Copacabana">Copacabana</option>
+                <option value="Barranquilla">Barranquilla</option>
+                <option value="Ibague">Ibague</option>
+                <option value="Magangue">Magangue</option>
+            </select><br>
+
+            <label for="mensaje">Mensaje</label>
+            <textarea id="mensaje" name="mensaje" rows="4" required></textarea><br>
+            <form>
+                <hr>
+            </form>
+
+            <p class="leido">Autorización de tratamiento de datos personales
+                <br>
+                <br>
+                <input type="checkbox" id="acceptTerms"><label for="acceptTerms">
+                    <p class="leido2">He leido y acepto las Politicas de privacidad *
+                </label>
+            </p>
+            </p>
+            <br>
+
+            <div class="container">
+                <button class="boton-enviar">ENVIAR</button>
+            </div>
+            <p class="obligatorio">* Campo obligatorio</p>
+        </form>
     </div>
-     <!--Footer-->
-     <footer>
+    <!--Footer-->
+    <footer>
         <section>
             <div class="prefooter">
                 <div class="textPrefooter">
@@ -112,39 +134,42 @@
         <section>
             <div class="footer">
                 <div class="contenedorFooter">
-                <div class="primer">
-                    <h2>ATENCION AL CLIENTE</h2>
-                    <h3>Contacto</h3>
-                    <h3>PQRS</h3>
-                    <h3>Solicite una cita en el taller</h3>
-                </div>
-                <div class="segundo">
-                    <h2>OBTEN TU NISSAN</h2>
-                    <h3>Vitrinas y talleres</h3>
-                    <h3>Solicita un test drive</h3>
-                    <h3>Catálogos</h3>
-                    <h3>Solicita una cotización</h3>
-                </div>
-                <div class="tercer">
-                    <h2>PROTECCIÓN DE DATOS PERSONALES</h2>
-                    <h3>Política de protección de datos Personales</h3>
-                    <h3>Aviso de privacidad</h3>
-                    <h3>SAGRILAFT</h3>
-                    <h3>Política de Prevención de LA/FT/FPADM</h3>
-                    <h3>PTEE (PROGRAMA DE TRANSPARENCIA Y ÉTICA EMPRESARIAL)</h3>
-                    <h3>Política Anticorrupción y Antisoborno</h3>
-                    <h3>Código de Ética</h3>
-                    <h3>Línea Ética</h3>
-                </div>
-                <div class="cuarto">
-                    <h2>NISSAN SOCIAL</h2>
-                    <div class="redes2">
-                        <a href="https://www.facebook.com/NissanCOL"><i class="fa-brands fa-facebook"></i></a>
-                        <a href="https://twitter.com/i/flow/login?redirect_after_login=%2FNissanColombia"><i class="fa-brands fa-x-twitter"></i></a>
-                        <a href="https://www.youtube.com/user/NissanColombia"><i class="fa-brands fa-youtube"></i></a>
-                        <a href="https://www.instagram.com/nissancolombia/"><i class="fa-brands fa-instagram"></i></a>
+                    <div class="primer">
+                        <h2>ATENCION AL CLIENTE</h2>
+                        <h3>Contacto</h3>
+                        <h3>PQRS</h3>
+                        <h3>Solicite una cita en el taller</h3>
                     </div>
-                </div>
+                    <div class="segundo">
+                        <h2>OBTEN TU NISSAN</h2>
+                        <h3>Vitrinas y talleres</h3>
+                        <h3>Solicita un test drive</h3>
+                        <h3>Catálogos</h3>
+                        <h3>Solicita una cotización</h3>
+                    </div>
+                    <div class="tercer">
+                        <h2>PROTECCIÓN DE DATOS PERSONALES</h2>
+                        <h3>Política de protección de datos Personales</h3>
+                        <h3>Aviso de privacidad</h3>
+                        <h3>SAGRILAFT</h3>
+                        <h3>Política de Prevención de LA/FT/FPADM</h3>
+                        <h3>PTEE (PROGRAMA DE TRANSPARENCIA Y ÉTICA EMPRESARIAL)</h3>
+                        <h3>Política Anticorrupción y Antisoborno</h3>
+                        <h3>Código de Ética</h3>
+                        <h3>Línea Ética</h3>
+                    </div>
+                    <div class="cuarto">
+                        <h2>NISSAN SOCIAL</h2>
+                        <div class="redes2">
+                            <a href="https://www.facebook.com/NissanCOL"><i class="fa-brands fa-facebook"></i></a>
+                            <a href="https://twitter.com/i/flow/login?redirect_after_login=%2FNissanColombia"><i
+                                    class="fa-brands fa-x-twitter"></i></a>
+                            <a href="https://www.youtube.com/user/NissanColombia"><i
+                                    class="fa-brands fa-youtube"></i></a>
+                            <a href="https://www.instagram.com/nissancolombia/"><i
+                                    class="fa-brands fa-instagram"></i></a>
+                        </div>
+                    </div>
                 </div>
             </div>
         </section>
@@ -156,4 +181,5 @@
         </section>
     </footer>
 </body>
+
 </html>
