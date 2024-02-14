@@ -169,6 +169,118 @@ header{
     background-color: #970505;
     color: #fff;
 }
+
+h1 {
+    font-size: 24px;
+    margin-bottom: 16px;
+  }
+  
+  .titulo {
+    text-align: center;
+    margin-top: 50px;
+    font-size: 35px;
+  }
+  
+  .informacion {
+    text-align: start;
+    margin-left: 400px;
+    font-size: 14px;
+  }
+  
+  p {
+    text-align: center;
+    padding: 0;
+    margin-top: 20px;
+    margin-bottom: 60px;
+    max-height: -20vh;
+    margin-left: 30px;
+  }
+  
+  form {
+    display: flex;
+    flex-direction: column;
+    max-width: 550px;
+    margin: 0 auto;
+  }
+  
+  label {
+    font-weight: bold;
+    margin-bottom: 8px;
+    width: 840px;
+  }
+  
+  .text {
+    width: 1000px;
+  }
+  
+  input,
+  select {
+    padding: 10px;
+    flex-grow: 30px;
+    margin-bottom: 10px;
+    border: 1px solid #0a0a0a;
+    width: 530px;
+    height: 30px;
+  }
+  
+  select {
+    width: 555px;
+    height: 55px;
+  }
+  
+  .container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .boton-enviar {
+    background-color: #C3002F;
+    color: #fff;
+    border: none;
+    padding: 15px 30px;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    margin-top: -10vh;
+  }
+  
+  .boton-enviar:hover {
+    background-color: #a6052b;
+    color: white;
+  }
+  
+  .boton-enviar::after {
+    content: ">";
+    margin-left: 432px;
+  }
+  
+  form > * {
+    margin-right: 16px;
+  }
+  
+  .leido {
+    margin-right: 180px;
+  }
+  
+  .leido2 {
+    margin-top: -15vh;
+    margin-right: 90px;
+  }
+  
+  .obligatorio {
+    margin-right: 390px;
+  }
+  
+  #acceptTerms {
+    margin-right: 350px;
+  
+  }
+  textarea{
+    height: 150px;
+    width: 550px;
+  }
+
 /***********************************ULTIMO*******************************************/
 
 

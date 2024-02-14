@@ -63,8 +63,11 @@ header{
     background-color: #801628bd;
     margin-top: -80px;
 }
-.autoselectpro img{
-    margin-left: 93%;
+.logo_autoselectpro{
+    position: fixed;
+    top: 85%;
+    left: 92%;
+    z-index: 9999;
 }
 .quienesSomos{
     display: flex;
