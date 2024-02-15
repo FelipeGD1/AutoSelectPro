@@ -1,0 +1,289 @@
+* {
+    padding: 0;
+    margin: 0;
+    font-family: "Nissan Light", "Nissan Regular", Verdana, Arial, sans-serif;
+}
+
+/*HEADER*/
+header {
+    margin: 15px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.logo_nissan {
+    width: 130px;
+}
+
+.menu {
+    width: 650px;
+}
+
+.lista_menu {
+    display: flex;
+    justify-content: space-around;
+    list-style: none;
+}
+
+.a_menu {
+    text-decoration: none;
+}
+
+.texto_menu {
+    font-size: 14px;
+    font-weight: 500;
+    color: rgb(0, 0, 0);
+}
+
+.logo_menu {
+    width: 30px;
+}
+
+/*FORMULARIO*/
+
+.formulario {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    background-color: rgb(238, 238, 238);
+    width: 100%;
+    height: 400px;
+}
+
+.contenido_formulario {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+#correo {
+    margin-bottom: 50px;
+    height: 25px;
+    width: 300px;
+
+}
+
+#contrasena {
+    margin-bottom: 50px;
+    height: 25px;
+    width: 300px;
+}
+
+form label {
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+.boton_iniciar {
+    padding: 15px 25px;
+    background-color: rgb(195, 0, 47);
+    color: white;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: 500;
+    border: 0px;
+    border-radius: 5px;
+    font-size: 15px;
+    width: auto;
+}
+
+.boton_iniciar:hover {
+    cursor: pointer;
+    opacity: 0.8;
+    transition: all 0.2s ease-in-out;
+}
+
+.registrate {
+    color: rgb(195, 0, 47);
+}
+
+.logo_autoselectpro {
+    position: fixed;
+    top: 70%;
+    left: 92%;
+    z-index: 9999;
+}
+
+/***********************************PRE FOOTER*******************************************/
+
+.prefooter {
+    height: 80px;
+    width: 100%;
+    background-color: #343434;
+}
+
+.textPrefooter {
+    display: flex;
+    flex-direction: row;
+    padding-top: 30px;
+    width: 30%;
+    margin-left: 200px;
+    justify-content: space-between;
+    color: #fff;
+    font-size: 11px;
+}
+
+/***********************************FOOTER*******************************************/
+.footer {
+    height: 400px;
+    width: 100%;
+    background-color: #1A1A1A;
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+}
+
+.contenedorFooter {
+    width: 1510px;
+    display: flex;
+    justify-content: center;
+    justify-content: space-between;
+    overflow: hidden;
+
+}
+
+.primer {
+    width: calc(100%/4);
+    font-size: 10px;
+}
+
+.primer h2 {
+    color: #fff;
+    margin-top: 20px;
+    font-size: 15px;
+}
+
+.primer h2:hover {
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+.primer h3 {
+    display: flex;
+    margin-top: 20px;
+    color: #8A8A8A;
+}
+
+.primer h3:hover {
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+.segundo {
+    width: calc(100%/4);
+    font-size: 10px;
+}
+
+.segundo h2 {
+    color: #fff;
+    margin-top: 20px;
+    font-size: 15px;
+}
+
+.segundo h2:hover {
+    text-decoration: underline;
+    cursor: pointer;
+
+}
+
+.segundo h3 {
+    display: flex;
+    margin-top: 20px;
+    color: #8A8A8A;
+}
+
+.segundo h3:hover {
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+.tercer {
+    width: calc(100%/4);
+    font-size: 10px;
+}
+
+.tercer h2 {
+    color: #fff;
+    margin-top: 20px;
+    font-size: 15px;
+}
+
+.tercer h2:hover {
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+.tercer h3 {
+    display: flex;
+    margin-top: 20px;
+    color: #8A8A8A;
+}
+
+.tercer h3:hover {
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+.cuarto {
+    color: #fff;
+    margin-top: 20px;
+    object-fit: cover;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    font-size: 10px;
+}
+
+.redes2 a {
+    color: #ffffff;
+    display: inline-block;
+    text-decoration: none;
+    border: 1px solid #fff;
+    border-radius: 100%;
+    width: 42px;
+    height: 42px;
+    line-height: 42px;
+    font-size: 20px;
+    transition: .3s;
+    margin-top: 15px;
+    margin-left: 15px;
+
+
+}
+
+.redes2 a:hover {
+    background-color: #970505;
+    color: #fff;
+}
+
+/***********************************ULTIMO*******************************************/
+
+
+.ultimoFooter {
+    display: flex;
+    width: 100%;
+    height: 70px;
+    background-color: #000000;
+    color: #8A8A8A;
+    font-size: 10px;
+}
+
+.uno {
+    margin-left: 200px;
+    margin-top: 30px;
+}
+
+.dos {
+    margin-top: 30px;
+    margin-left: 50px;
+}
+
+.tres {
+    margin-top: 30px;
+    margin-left: 486px;
+}
+
+.cuatrop {
+    margin-top: 30px;
+    margin-left: 50px;
+}

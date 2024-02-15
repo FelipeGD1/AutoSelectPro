@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Iniciar Sesión</title>
+    <link rel="stylesheet" href="../style/registro.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+        integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <script src='https://kit.fontawesome.com/a076d05399.js' crossorigin='anonymous'></script>
+</head>
+
+<body>
+    <header>
+        <div class="logo">
+            <a href="index.html"><img src="../img/nissan2020.png" alt="Logo de nissan" class="logo_nissan" /></a>
+        </div>
+        <nav class="menu">
+            <ul class="lista_menu">
+                <li>
+                    <a href="index.html" class="a_menu">
+                        <h2 class="texto_menu">INICIO</h2>
+                    </a>
+                </li>
+                <li>
+                    <a href="descripcion.html" class="a_menu">
+                        <h2 class="texto_menu">DESCRIPCIÓN</h2>
+                    </a>
+                </li>
+                <li>
+                    <a href="nosotros.html" class="a_menu">
+                        <h2 class="texto_menu">QUIENES SOMOS</h2>
+                    </a>
+                </li>
+                <li>
+                    <a href="contactenos.html" class="a_menu">
+                        <h2 class="texto_menu">CONTACTENOS</h2>
+                    </a>
+                </li>
+                <a class="login" href="../html/login.html"><i class='fas fa-user-circle'
+                        style='font-size:25px;color:black;'></i></a>
+                <a href=""><img src="../img/menu_negro.png" alt="icono de menu" class="logo_menu" /></a>
+            </ul>
+        </nav>
+    </header>
+
+    <!--FORMULARIO REGISTRO-->
+    <section class="registro">
+        <div class="formulario">
+            <h1>REGISTRATE</h1>
+            <form class="contenido_formulario" action="#" method="post">
+
+                <label for="correo">Nombre*:</label>
+                <input type="text" id="nombre" name="nombre" required placeholder="Laura Manuela">
+
+                <label for="correo">Apellido*:</label>
+                <input type="text" id="apellido" name="apellido" required placeholder="Montoya Garcia">
+
+                <label for="tipo_documento">Tipo de documento:</label>
+                <select id="tipo_documento" name="tipo_documento" required>
+                    <option value="">Seleccione el tipo de documento</option>
+                    <option value="CC">Cedula</option>
+                    <option value="Pasaporte">Pasaporte</option>
+                    <option value="PP">Permiso especial de permanencia</option>
+                </select>
+
+                <label for="numero_documento">Número de documento*:</label>
+                <input type="text" id="numero_documento" name="numero_documento" required>
+
+                <label for="correo">Correo electrónico*:</label>
+                <input type="text" id="correo" name="correo" required placeholder="nissan@nissan.com">
+
+                <label for="telefono">Teléfono:*</label>
+                <input type="tel" id="telefono" name="telefono" required placeholder="123-456-7890">
+
+                <label for="contrasena">Contraseña*:</label>
+                <input type="password" id="contrasena" name="contrasena" required placeholder="**********">
+
+                <input type="submit" value="Registrarse" class="boton_iniciar">
+            </form>
+            <p>*Campos obligatorios</p>
+
+        </div>
+    </section>
+
+    <!--FOOTER-->
+    <div class="prefooter">
+        <div class="textPrefooter">
+            <h2>Nissan Colombia</h2>
+            <h2>></h2>
+            <h2>Registro</h2>
+        </div>
+    </div>
+    </section>
+    <section>
+        <section>
+            <div class="logo_autoselectpro">
+                <a href="../html/chat.html"><img src="../img/logo_AutoSelectPro-fotor-2024021317942.png"
+                        alt="Icono de autoselectpro" width="80px" height="80px"></a>
+            </div>
+        </section>
+        <div class="footer">
+            <div class="contenedorFooter">
+                <div class="primer">
+                    <h2>ATENCION AL CLIENTE</h2>
+                    <h3>Contacto</h3>
+                    <h3>PQRS</h3>
+                    <h3>Solicite una cita en el taller</h3>
+                </div>
+                <div class="segundo">
+                    <h2>OBTEN TU NISSAN</h2>
+                    <h3>Vitrinas y talleres</h3>
+                    <h3>Solicita un test drive</h3>
+                    <h3>Catálogos</h3>
+                    <h3>Solicita una cotización</h3>
+                </div>
+                <div class="tercer">
+                    <h2>PROTECCIÓN DE DATOS PERSONALES</h2>
+                    <h3>Política de protección de datos Personales</h3>
+                    <h3>Aviso de privacidad</h3>
+                    <h3>SAGRILAFT</h3>
+                    <h3>Política de Prevención de LA/FT/FPADM</h3>
+                    <h3>PTEE (PROGRAMA DE TRANSPARENCIA Y ÉTICA EMPRESARIAL)</h3>
+                    <h3>Política Anticorrupción y Antisoborno</h3>
+                    <h3>Código de Ética</h3>
+                    <h3>Línea Ética</h3>
+                </div>
+                <div class="cuarto">
+                    <h2>NISSAN SOCIAL</h2>
+                    <div class="redes2">
+                        <a href="https://www.facebook.com/NissanCOL"><i class="fa-brands fa-facebook"></i></a>
+                        <a href="https://twitter.com/i/flow/login?redirect_after_login=%2FNissanColombia"><i
+                                class="fa-brands fa-x-twitter"></i></a>
+                        <a href="https://www.youtube.com/user/NissanColombia"><i class="fa-brands fa-youtube"></i></a>
+                        <a href="https://www.instagram.com/nissancolombia/"><i class="fa-brands fa-instagram"></i></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="ultimoFooter">
+        <h2 class="uno">Sitio Global</h2>
+        <h2 class="dos">Términos y Condiciones</h2>
+        <h2 class="tres">Politicas de uso</h2>
+        <h2 class="cuatrop">&copy Felipe 2024</h2>
+    </section>
+</body>
+
+</html>
