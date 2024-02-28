@@ -1,39 +1,602 @@
-*{
+* {
     padding: 0;
     margin: 0;
+    font-family: 'Encode Sans Semi Condensed', sans-serif;
 }
-header{ 
-    margin: 15px;
+
+/*************************header********************/
+header {
+    padding: 15px;
     display: flex;
     justify-content: space-between;
 }
 
-.logo_nissan{
+.logo_nissan {
     width: 130px;
 }
 
-.menu{
+.menu {
     width: 650px;
 }
 
 
-.lista_menu{
+.lista_menu {
     display: flex;
     justify-content: space-around;
     list-style: none;
 }
 
-.a_menu{
+
+.a_menu {
     text-decoration: none;
 }
 
-.texto_menu{
+.texto_menu {
     font-size: 14px;
     font-weight: 500;
-    color: rgb(0, 0, 0);
+    color: white;
+
 }
 
-.logo_menu{
-    width: 30px;
-    
+.texto_menu:hover {
+    opacity: 0.7;
+    transition: all 0.2s ease-in-out;
+}
+
+.logo_menu {
+    margin-top: -5px;
+    width: 20px;
+
+}
+
+/*************************body********************/
+body {
+    background-image: url(../img/cuadrito1.jpg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+
+.autoselectpro {
+    display: flex;
+    justify-content: end;
+    margin-top: -83px;
+    background-color: rgba(253, 253, 253, 0.116);
+}
+
+.autoselectpro_link {
+    text-decoration: none;
+    color: black;
+    font-family: 'Encode Sans Semi Condensed', sans-serif;
+    padding-right: 40px;
+    font-size: 17px;
+    font-weight: 500;
+    text-decoration: underline;
+}
+
+.info_banner {
+    margin-top: 90px;
+    margin-left: 30px;
+    color: white;
+    font-family: 'Encode Sans Semi Condensed';
+}
+
+.p1_banner {
+    letter-spacing: 1px;
+}
+
+.titulo_banner {
+    font-weight: 200;
+    letter-spacing: 4px;
+    font-size: 50px;
+    margin: 5px 0;
+}
+
+.p2_banner {
+    letter-spacing: 1px;
+    font-size: 14px;
+    margin-bottom: 30px;
+}
+
+.boton_banner {
+    padding: 15px 25px;
+    background-color: rgb(195, 0, 47);
+    color: white;
+    font-family: 'Encode Sans Semi Condensed';
+    font-weight: 500;
+    border: 0px;
+    border-radius: 1px;
+}
+
+
+.boton_banner:hover {
+    cursor: pointer;
+    opacity: 0.8;
+    transition: all 0.2s ease-in-out;
+
+}
+
+.imagenes_banner {
+    display: flex;
+    justify-content: center;
+    margin-top: 11%;
+}
+
+.img_banner {
+    width: 200px;
+    height: 120px;
+}
+
+.lista_automoviles {
+    display: flex;
+    list-style: none;
+    margin-left: 130px;
+}
+
+.texto_automoviles {
+    padding: 5px;
+    color: black;
+    font-family: 'Encode Sans Semi Condensed';
+    font-size: 14px;
+    margin-top: 50px;
+    padding-right: 20px;
+    font-weight: 1000;
+
+}
+
+.--destacados {
+    color: rgb(195, 0, 47);
+}
+
+.a_automoviles {
+    text-decoration: none;
+}
+
+.texto_automoviles:hover {
+    color: rgb(152, 2, 37);
+    transition: all 0.2s ease-in-out;
+}
+
+.automoviles {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin-left: 50px;
+    margin-top: 30px;
+}
+
+.carrito_boton {
+    padding-right: 60px;
+}
+
+.carrito_boton:hover {
+    transform: scale(1.05);
+    transition: all 0.3s ease-in-out;
+}
+
+.img_carritos {
+    width: 200px;
+}
+
+.--carrito6 {
+    margin-left: 130px;
+    margin-top: 30px;
+    width: 200px;
+}
+
+.p_carritos {
+    text-align: center;
+    padding-top: 30px;
+}
+
+.p_carritos:hover {
+    color: rgb(152, 2, 37);
+}
+
+.a_carritos {
+    text-decoration: none;
+    font-family: 'Encode Sans Semi Condensed';
+    color: black;
+    font-weight: 1000;
+}
+
+.info_gris {
+    display: flex;
+    justify-content: center;
+}
+
+.info_autoselectpro {
+    background-color: rgb(238, 234, 234);
+    width: 1200px;
+    margin: 40px 0;
+    padding: 50px 0;
+    font-family: 'Encode Sans Semi Condensed';
+    text-align: center;
+}
+
+.titulo_auto {
+    font-size: 27px;
+    letter-spacing: 2px;
+    font-weight: 450;
+    padding: 10px 0;
+}
+
+.p_autoselectpro {
+    font-size: 14px;
+    padding: 5px 40px;
+}
+
+.boton_autoselectpro {
+    padding: 15px 25px;
+    background-color: rgb(195, 0, 47);
+    color: white;
+    font-family: 'Encode Sans Semi Condensed';
+    font-weight: 500;
+    border: 0px;
+    border-radius: 1px;
+    margin: 30px 0 0 0;
+}
+
+.boton_autoselectpro:hover {
+    opacity: 0.8;
+    transition: all 0.2s ease-in-out;
+    cursor: pointer;
+}
+
+
+.campanas_seguridad {
+    background-color: rgb(238, 234, 234);
+    width: 1200px;
+    margin: 40px 0;
+    padding: 50px 0;
+    font-family: 'Encode Sans Semi Condensed';
+    text-align: center;
+}
+
+.titulo_campanas_seguridad {
+    font-size: 27px;
+    letter-spacing: 2px;
+    font-weight: 450;
+    padding: 10px 0;
+}
+
+.boton_campanas_seguridad {
+    padding: 15px 25px;
+    background-color: rgb(195, 0, 47);
+    color: white;
+    font-family: 'Encode Sans Semi Condensed';
+    font-weight: 500;
+    border: 0px;
+    border-radius: 1px;
+    margin: 30px 0 0 0;
+}
+
+.boton_campanas_seguridad:hover {
+    opacity: 0.8;
+    transition: all 0.2s ease-in-out;
+    cursor: pointer;
+}
+
+.me_gustaria {
+    background-color: rgb(238, 234, 234);
+    width: 1200px;
+    margin: 40px 0;
+    padding: 50px 0;
+    font-family: 'Encode Sans Semi Condensed';
+    text-align: center;
+}
+
+.titulo_me_gustaria {
+    font-size: 27px;
+    letter-spacing: 2px;
+    font-weight: 450;
+    padding: 10px 0;
+    padding-bottom: 40px;
+}
+
+.iconos_me_gustaria {
+    display: flex;
+    justify-content: space-evenly;
+    padding-bottom: 40px;
+}
+
+.logo_me_gustaria {
+    width: 50px;
+}
+
+.iconos_me_gustaria p {
+    margin-top: 10px;
+    font-size: 14px;
+    font-weight: 500;
+}
+
+.iconos_me_gustaria p:hover {
+    text-decoration: underline;
+    text-decoration-color: rgb(195, 0, 47);
+    text-decoration-style: solid;
+    text-decoration-thickness: 4px;
+}
+
+.a_me_gustaria {
+    text-decoration: none;
+    color: black;
+}
+
+.rayita {
+    width: 55px;
+    height: 4px;
+    background-color: rgb(195, 0, 47);
+    margin-left: 160px;
+    margin-top: 50px;
+}
+
+.titulo_redes_sociales {
+    font-size: 30px;
+    letter-spacing: 2px;
+    font-weight: 450;
+    margin-left: 160px;
+    margin-top: 10px;
+    font-weight: 400;
+}
+
+.noticias {
+    padding-top: 40px;
+}
+
+.titulo_noticias {
+    font-size: 30px;
+    letter-spacing: 2px;
+    font-weight: 450;
+    margin-left: 160px;
+    margin-top: 10px;
+    font-weight: 400;
+}
+
+.noticia_singular {
+    display: flex;
+    justify-content: center;
+}
+
+.noticia_singular_titulo {
+    width: 570px;
+    padding: 30px 25px;
+}
+
+.img_noticia_singular {
+    width: 570px;
+}
+
+.h5_noticia_singular {
+    padding-top: 20px;
+    font-weight: 1000;
+}
+
+.h2_noticia_singular {
+    font-size: 30px;
+    letter-spacing: 2px;
+    font-weight: 450;
+    font-weight: 400;
+    padding-top: 5px;
+}
+
+.p_noticia_singular {
+    padding-top: 15px;
+    line-height: 25px;
+}
+
+.boton_noticia_singular {
+    padding: 15px 25px;
+    background-color: rgb(195, 0, 47);
+    color: white;
+    font-family: 'Encode Sans Semi Condensed';
+    font-weight: 500;
+    border: 0px;
+    border-radius: 1px;
+    margin-top: 20px;
+}
+
+.boton_noticia_singular:hover {
+    cursor: pointer;
+    opacity: 0.8;
+    transition: all 0.2s ease-in-out;
+}
+
+.a_boton_noticia_singular {
+    text-decoration: none;
+}
+
+.mas_noticias {
+    display: flex;
+    justify-content: center;
+    padding: 50px 0;
+}
+
+.boton_mas_noticias {
+    padding: 15px 25px;
+    background-color: rgb(195, 0, 47);
+    color: white;
+    font-family: 'Encode Sans Semi Condensed';
+    font-weight: 500;
+    border: 0px;
+    border-radius: 1px;
+    margin-top: 20px;
+}
+
+.boton_mas_noticias:hover {
+    cursor: pointer;
+    opacity: 0.8;
+    transition: all 0.2s ease-in-out;
+}
+
+/***********************************BOTON CHAT*******************************************/
+
+.logo_autoselectpro {
+    position: fixed;
+    top: 85%;
+    left: 92%;
+    z-index: 9999;
+}
+
+/***********************************FOOTER*******************************************/
+.footer {
+    height: 400px;
+    width: 100%;
+    background-color: #1A1A1A;
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+}
+
+.contenedorFooter {
+    width: 1510px;
+    display: flex;
+    justify-content: center;
+    justify-content: space-between;
+    overflow: hidden;
+
+}
+
+.primer {
+    width: calc(100%/4);
+    font-size: 10px;
+}
+
+.primer h2 {
+    color: #fff;
+    margin-top: 20px;
+    font-size: 15px;
+}
+
+.primer h2:hover {
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+.primer h3 {
+    display: flex;
+    margin-top: 20px;
+    color: #8A8A8A;
+}
+
+.primer h3:hover {
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+.segundo {
+    width: calc(100%/4);
+    font-size: 10px;
+}
+
+.segundo h2 {
+    color: #fff;
+    margin-top: 20px;
+    font-size: 15px;
+}
+
+.segundo h2:hover {
+    text-decoration: underline;
+    cursor: pointer;
+
+}
+
+.segundo h3 {
+    display: flex;
+    margin-top: 20px;
+    color: #8A8A8A;
+}
+
+.segundo h3:hover {
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+.tercer {
+    width: calc(100%/4);
+    font-size: 10px;
+}
+
+.tercer h2 {
+    color: #fff;
+    margin-top: 20px;
+    font-size: 15px;
+}
+
+.tercer h2:hover {
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+.tercer h3 {
+    display: flex;
+    margin-top: 20px;
+    color: #8A8A8A;
+}
+
+.tercer h3:hover {
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+.cuarto {
+    color: #fff;
+    margin-top: 20px;
+    object-fit: cover;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    font-size: 10px;
+}
+
+.redes2 a {
+    color: #ffffff;
+    display: inline-block;
+    text-decoration: none;
+    border: 1px solid #fff;
+    border-radius: 100%;
+    width: 42px;
+    height: 42px;
+    line-height: 42px;
+    font-size: 20px;
+    transition: .3s;
+    margin-top: 15px;
+    margin-left: 15px;
+
+
+}
+
+.redes2 a:hover {
+    background-color: #970505;
+    color: #fff;
+}
+
+/***********************************ULTIMO*******************************************/
+
+
+.ultimoFooter {
+    display: flex;
+    width: 100%;
+    height: 70px;
+    background-color: #000000;
+    color: #8A8A8A;
+    font-size: 10px;
+}
+
+.uno {
+    margin-left: 200px;
+    margin-top: 30px;
+}
+
+.dos {
+    margin-top: 30px;
+    margin-left: 50px;
+}
+
+.tres {
+    margin-top: 30px;
+    margin-left: 486px;
+}
+
+.cuatrop {
+    margin-top: 30px;
+    margin-left: 50px;
 }
