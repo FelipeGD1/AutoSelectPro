@@ -30,6 +30,7 @@ header{
     display: flex;
     justify-content: space-around;
     list-style: none;
+    
 }
 
 .a_menu{
@@ -43,8 +44,11 @@ header{
 }
 
 .logo_menu{
-    width: 30px;
-    
+    width: 30px;  
+}
+.logo_menu:active .lista_menu{
+    display: none;
+     
 }
 
 /***********************************MAIN*******************************************/
@@ -74,23 +78,25 @@ header{
     justify-content: center;
     background-color:#801628;
     width: 380px;
-    margin-top: 100px;
-    margin-left: 40%;
+    margin: 100px auto 0px;
     color: #fff;
     font-size: 20px;
 }
+
+
 .cards{
-    margin-left: calc(100%/10);
-    max-width: 1500px;
+    margin: 0px auto;
+    max-width: 1250px;
     overflow-x: auto;
     white-space: nowrap;
     padding: 10px;
     margin-top: 50px;
+    
 }
 .card{
     display: inline-block;
     flex-direction: column;
-    margin-left: 10px;
+    margin-left: 10px; 
     text-align: center;
     overflow: hidden;
     height: 500px;
@@ -293,4 +299,32 @@ header{
 .cuatrop{
     margin-top: 30px;
     margin-left: 50px;
+}
+
+/*media querys*/
+
+/*Portatiles*/
+@media(768px< width<1300px){
+    .card{
+        width: calc((100%/2));
+    }
+    .cards{
+        margin-right: 10px;
+        max-width: 767px;
+        margin: 10px auto;
+    }
+}
+
+
+
+/*tablets*/
+@media(600px< width<=768px){
+    .card{
+        width: calc((100%/1));
+    }
+    .cards{
+        margin-right: 10px;
+        width: 500px;
+        margin: 10px auto;
+    }
 }
