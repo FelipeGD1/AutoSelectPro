@@ -313,6 +313,31 @@ header{
         max-width: 767px;
         margin: 10px auto;
     }
+    .ultimoFooter{
+        display: flex;
+    justify-content: center;
+    justify-content: space-between;
+    overflow: hidden;
+    }
+    .uno{
+        margin-left: 20px;
+        margin-top: 10px;
+    }
+    .dos{
+        margin-left: 20px;
+        margin-top: 10px;
+    }
+    .tres{
+        margin-left: 20px;
+        margin-top: 10px;
+    }
+    .cuatrop{
+        margin-left: 20px;
+        margin-top: 10px;
+    }
+    .logo_autoselectpro{   
+        left: 90%;   
+    }
 }
 
 
@@ -327,4 +352,147 @@ header{
         width: 500px;
         margin: 10px auto;
     }
+    .ultimoFooter{
+        display: flex;
+        flex-wrap: wrap;
+        overflow: hidden;
+    }
+    .uno{
+        margin-left: 20px;
+        margin-top: 10px;
+    }
+    .dos{
+        margin-left: 20px;
+        margin-top: 10px;
+    }
+    .tres{
+        margin-left: 20px;
+        margin-top: 10px;
+    }
+    .cuatrop{
+        margin-left: 20px;
+        margin-top: 10px;
+    }
+    .logo_autoselectpro{
+      
+        left: 85%;
+    }
+    .textPrefooter{
+        
+        margin-left: 100px;
+        
+    }
+}
+/*celulares*/
+@media(width<=600px){
+    .card{
+        width: calc((100%/1));
+    }
+    .cards{
+        margin-right: 10px;
+        width: 500px;
+        margin: 10px auto;
+    }
+    header{ 
+        margin: 15px;
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .logo_nissan{
+        width: 100px;
+       
+        
+    }
+    .logo{
+        display: flex;
+        margin: 0 auto;
+        align-items: center;
+    }
+    .ultimoFooter{
+        display: flex;
+    justify-content: center;
+    justify-content: space-between;
+    overflow: hidden;
+    }
+    .uno{
+        margin-left: 20px;
+        margin-top: 10px;
+    }
+    .dos{
+        margin-left: 20px;
+        margin-top: 10px;
+    }
+    .tres{
+        margin-left: 20px;
+        margin-top: 10px;
+    }
+    .cuatrop{
+        margin-left: 20px;
+        margin-top: 10px;
+    }
+    .logo_autoselectpro{
+        left: 85%;  
+    }
+    .textPrefooter{
+        
+        margin-left: 100px;
+        
+    }
+}
+@media(width<=530px){
+    .card{
+        width: calc((100%/1));
+        
+    }
+    .cards{
+        margin-right: 10px;
+        width: 350px;
+        margin: 10px auto;
+    }
+    header{ 
+        margin: 15px;
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .logo_nissan{
+        width: 100px;
+       
+        
+    }
+    .logo{
+        display: flex;
+        margin: 0 auto;
+        align-items: center;
+    }
+    .ultimoFooter{
+        display: flex;
+    justify-content: center;
+    justify-content: space-between;
+    overflow: hidden;
+    }
+    .uno{
+        margin-left: 20px;
+        margin-top: 10px;
+    }
+    .dos{
+        margin-left: 20px;
+        margin-top: 10px;
+    }
+    .tres{
+        margin-left: 20px;
+        margin-top: 10px;
+    }
+    .cuatrop{
+        margin-left: 20px;
+        margin-top: 10px;
+    }
+    .logo_autoselectpro{
+        left: 85%;  
+    }
+    .textPrefooter{
+        
+        margin-left: 100px;
+        
+    }
+    
 }
