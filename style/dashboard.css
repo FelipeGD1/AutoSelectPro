@@ -1,0 +1,148 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: "Nissan Light", "Nissan Regular", Verdana, Arial, sans-serif;
+}
+
+body {
+    background-color: rgb(235, 234, 234);
+}
+
+header{
+    display: flex;
+}
+
+main{
+    display: flex;
+}
+
+.bloqueIzqDash {
+    height: 71.5vh;
+    width: 280px;
+    background-color: rgb(253, 253, 253);
+    position: static;
+}
+
+.bloqueLogoDash {
+    background-color: rgb(18, 19, 21);
+    width: 280px;
+    height: 220px;
+}
+
+.bloqueImgDash {
+    width: 220px;
+    height: 220px;
+    margin: auto;
+}
+
+.logoDash {
+    height: 100%;
+    width: 100%;
+}
+
+.listaDash {
+    list-style: none;
+}
+
+.listadoDash {
+    padding: 15px;
+}
+
+.svgDash {
+    margin-right: 15px;
+    height: 20px;
+    width: 20px;
+}
+
+.textoMenuDash {
+    text-decoration: none;
+    color: rgb(124, 124, 124);
+}
+
+.svgDash2p {
+    margin-left: 129px;
+}
+
+.svgDash2s {
+    margin-left: 92px;
+}
+
+.svgDash2t {
+    margin-left: 123px;
+}
+
+.navMenu {
+    width: 80%;
+    height: 100px;
+}
+
+.svgNav {
+    padding: 15px;
+    width: 30px;
+    height: 30px;
+    color: rgb(18, 19, 21);
+}
+
+.svgNav2 {
+    width: 20px;
+    height: 20px;
+    color: rgb(18, 19, 21);
+}
+
+.svgNav3 {
+    width: 20px;
+    height: 20px;
+    color: rgb(18, 19, 21);
+}
+
+
+.menuDerecha{
+    width: 350px;
+    padding: 15px;
+    float: right;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.imgPersonaPanel{
+    width: 50px;
+    height: 50px;
+    border-radius: 100%;
+}
+
+
+.rangoPanel{
+    color: rgb(124, 124, 124);
+}
+
+.contPrinciDash{
+   margin:  0px auto;
+    width: 80%;
+    height: 70vh;
+    background-color: rgb(253, 253, 253);
+    border-radius: 5px;
+}
+
+.tabUsuariosDash{
+    background-color: blue;
+    width: 50px;
+    height: 50px;
+}
+
+ table {
+    border-collapse: collapse;
+    width: 100%;
+}
+th, td {
+    border: 1px solid black;
+    padding: 8px;
+    text-align: left;
+}
+th {
+    background-color: #f2f2f2;
+}
+
+th:not(:last-child), td:not(:last-child) {
+    border-right: 2px solid black;
+}
