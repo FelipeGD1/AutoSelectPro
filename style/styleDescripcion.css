@@ -1,60 +1,60 @@
-*{
+* {
     padding: 0;
     margin: 0;
-    font-family: "Nissan Light","Nissan Regular",Verdana,Arial,sans-serif;
+    font-family: "Nissan Light", "Nissan Regular", Verdana, Arial, sans-serif;
 }
 
-header{ 
+header {
     margin: 15px;
     display: flex;
     justify-content: space-between;
 }
 
-.logo_nissan{
+.logo_nissan {
     width: 130px;
 }
 
-.menu{
+.menu {
     width: 650px;
 }
 
-.lista_menu{
+.lista_menu {
     display: flex;
     justify-content: space-around;
     list-style: none;
 }
 
-.a_menu{
+.a_menu {
     text-decoration: none;
 }
 
-.texto_menu{
+.texto_menu {
     font-size: 14px;
     font-weight: 500;
     color: rgb(0, 0, 0);
 }
 
-.logo_menu{
+.logo_menu {
     width: 30px;
 }
 
-.preMain1{
+.preMain1 {
     text-align: center;
     padding: 25px;
 }
 
-.preTexto1{
+.preTexto1 {
     font-weight: 100;
     font-size: 30px;
 }
 
-.preMain2{
+.preMain2 {
     display: flex;
     justify-content: space-around;
     padding: 20px;
 }
 
-.botonRojo1{
+.botonRojo1 {
     width: 200px;
     height: 40px;
     background-color: #c3002f;
@@ -63,166 +63,167 @@ header{
     cursor: pointer;
 }
 
-.botonRojo1:hover{
+.botonRojo1:hover {
     background-color: #ac022a;
 }
 
-.espacio1{
+.espacio1 {
     padding: 10px;
 }
 
-.imagenFondo{
-   background: url(../img/banner-principal-vehiculos-comerciales-v2.png.ximg.l_full_m.smart.png);
-   background-size: cover;
-   background-attachment: scroll;
-   height: 115vh;
-   display: flex;
+.imagenFondo {
+    background: url(../img/banner-principal-vehiculos-comerciales-v2.png.ximg.l_full_m.smart.png);
+    background-size: cover;
+    background-attachment: scroll;
+    height: 115vh;
+    display: flex;
 }
 
-.bloqueGris{
+.bloqueGris {
     width: 500px;
     height: 320px;
-    background: rgba(0,0,0,.6);
+    background: rgba(0, 0, 0, .6);
     margin: 50px;
     color: white;
 }
 
-.titulobGris{
+.titulobGris {
     font-size: 30px;
     padding: 15px;
     font-weight: 100;
 }
 
-.textobGris{
+.textobGris {
     padding: 15px;
     font-size: 15px;
 }
 
-.lineaRoja1{
+.lineaRoja1 {
     width: 50px;
     height: 5px;
     background-color: #ac022a;
     margin: 30px auto 10px;
 }
 
-.primerTitulo{
+.primerTitulo {
     text-align: center;
     padding: 20px;
 }
 
-.titulo1{
+.titulo1 {
     font-weight: 100;
     font-size: 25px;
 }
 
-.seccionPrimera{
+.seccionPrimera {
     display: flex;
     justify-content: space-around;
 }
 
-.imagenc1{
+.imagenc1 {
     padding: 15px;
 }
 
-.imagen1{
+.imagen1 {
     width: 580px;
     border-radius: 5px;
 }
 
 
-.texto1{
+.texto1 {
     width: 600px;
 }
 
-.titulo2{
+.titulo2 {
     color: #343434;
     padding: 15px;
 }
 
-.textoPrimero{
+.textoPrimero {
     padding: 15px;
 }
 
-.seccionSegunda{
+.seccionSegunda {
     display: flex;
     justify-content: space-around;
 }
 
-.texto2{
+.texto2 {
     width: 600px;
 }
 
-.titulo3{
+.titulo3 {
     color: #343434;
     padding: 15px;
 }
 
-.textoSegundo{
+.textoSegundo {
     padding: 15px;
 }
 
-.imagenc2{
+.imagenc2 {
     padding: 15px;
 }
 
-.imagen2{
+.imagen2 {
     width: 580px;
     border-radius: 5px;
 }
 
-.lineaRoja2{
+.lineaRoja2 {
     width: 50px;
     height: 5px;
     background-color: #ac022a;
     margin: 30px auto 10px;
 }
 
-.segundoTitulo{
+.segundoTitulo {
     text-align: center;
     padding: 20px;
 }
 
-.titulo4{
+.titulo4 {
     font-weight: 100;
     font-size: 25px;
 }
 
-.seccionTercera{
+.seccionTercera {
     display: flex;
     justify-content: space-around;
 }
 
-.imagenc3{
+.imagenc3 {
     padding: 15px;
 }
 
-.imagen3{
+.imagen3 {
     width: 580px;
     border-radius: 5px;
 }
 
-.texto3{
+.texto3 {
     width: 600px;
 }
 
-.textoTercero{
+.textoTercero {
     font-size: 25px;
     padding: 15px;
 }
 
-.separacion{
+.separacion {
     padding: 100px;
 }
 
 
 /***********************************PRE FOOTER*******************************************/
 
-.prefooter{
+.prefooter {
     height: 80px;
     width: 100%;
     background-color: #343434;
 }
-.textPrefooter{
+
+.textPrefooter {
     display: flex;
     flex-direction: row;
     padding-top: 30px;
@@ -234,7 +235,7 @@ header{
 }
 
 /***********************************FOOTER*******************************************/
-.footer{
+.footer {
     height: 400px;
     width: 100%;
     background-color: #1A1A1A;
@@ -242,82 +243,98 @@ header{
     justify-content: center;
     flex-direction: row;
 }
-.contenedorFooter{
+
+.contenedorFooter {
     width: 1510px;
     display: flex;
     justify-content: center;
     justify-content: space-around;
     overflow: hidden;
 }
-.primer{
+
+.primer {
     width: calc(100%/4);
     font-size: 10px;
 }
 
-.primer h2{
+.primer h2 {
     color: #fff;
     margin-top: 20px;
     font-size: 15px;
 }
-.primer h2:hover{
+
+.primer h2:hover {
     text-decoration: underline;
     cursor: pointer;
 }
-.primer h3{
+
+.primer h3 {
     display: flex;
     margin-top: 20px;
     color: #8A8A8A;
 }
-.primer h3:hover{
+
+.primer h3:hover {
     text-decoration: underline;
     cursor: pointer;
 }
-.segundo{
+
+.segundo {
     width: calc(100%/4);
     font-size: 10px;
 }
-.segundo h2{
+
+.segundo h2 {
     color: #fff;
     margin-top: 20px;
     font-size: 15px;
 }
-.segundo h2:hover{
+
+.segundo h2:hover {
     text-decoration: underline;
     cursor: pointer;
 
 }
-.segundo h3{
+
+.segundo h3 {
     display: flex;
     margin-top: 20px;
     color: #8A8A8A;
 }
-.segundo h3:hover{
+
+.segundo h3:hover {
     text-decoration: underline;
     cursor: pointer;
 }
-.tercer{
+
+.tercer {
     width: calc(100%/4);
     font-size: 10px;
 }
-.tercer h2{
+
+.tercer h2 {
     color: #fff;
     margin-top: 20px;
     font-size: 15px;
 }
-.tercer h2:hover{
+
+.tercer h2:hover {
     text-decoration: underline;
     cursor: pointer;
 }
-.tercer h3{
+
+.tercer h3 {
     display: flex;
     margin-top: 20px;
     color: #8A8A8A;
 }
-.tercer h3:hover{
+
+.tercer h3:hover {
     text-decoration: underline;
     cursor: pointer;
 }
-.cuarto{
+
+.cuarto {
     color: #fff;
     margin-top: 20px;
     object-fit: cover;
@@ -326,7 +343,8 @@ header{
     text-align: center;
     font-size: 10px;
 }
-.redes2 a{
+
+.redes2 a {
     color: #ffffff;
     display: inline-block;
     text-decoration: none;
@@ -340,14 +358,16 @@ header{
     margin-top: 15px;
     margin-left: 15px;
 }
-.redes2 a:hover{
+
+.redes2 a:hover {
     background-color: #970505;
     color: #fff;
 }
+
 /***********************************ULTIMO*******************************************/
 
 
-.ultimoFooter{
+.ultimoFooter {
     display: flex;
     width: 100%;
     height: 70px;
@@ -355,19 +375,23 @@ header{
     color: #8A8A8A;
     font-size: 10px;
 }
-.uno{
+
+.uno {
     margin-left: 200px;
     margin-top: 30px;
 }
-.dos{
+
+.dos {
     margin-top: 30px;
     margin-left: 50px;
 }
-.tres{
+
+.tres {
     margin-top: 30px;
     margin-left: 486px;
 }
-.cuatrop{
+
+.cuatrop {
     margin-top: 30px;
     margin-left: 50px;
 }
