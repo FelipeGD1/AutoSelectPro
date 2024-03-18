@@ -52,9 +52,6 @@ header{
 }
 
 /***********************************MAIN*******************************************/
-.Main{
-    height: 100vh;
-}
 
 .autoselectpro h2{
     display: flex;
@@ -83,7 +80,10 @@ header{
     font-size: 20px;
 }
 
-
+.carrusel{
+  
+    height: 650px;
+}
 .cards{
     margin: 0px auto;
     max-width: 1250px;
@@ -103,6 +103,7 @@ header{
     width: calc(100%/3);
     background-color: #801628bd;
     object-fit: cover;
+    
 }
 .card h2{
     margin-bottom: 20px;
@@ -115,6 +116,11 @@ header{
 }
 .card img{
     margin-left: calc(100%/50);
+    border-radius: 100%;
+}
+.material-symbols-outlined{
+    font-size: 40px;
+    display: inline-flex;
 }
 .redes a{
     color: #ffffff ;
@@ -308,10 +314,13 @@ header{
     .card{
         width: calc((100%/2));
     }
+    .carrusel{
+        height: 630px;
+    }
     .cards{
         margin-right: 10px;
         max-width: 767px;
-        margin: 10px auto;
+        margin: 30px auto;
     }
     .ultimoFooter{
         display: flex;
@@ -350,7 +359,10 @@ header{
     .cards{
         margin-right: 10px;
         width: 500px;
-        margin: 10px auto;
+        margin: 30px auto;
+    }
+    .footer{
+        height: 450px;
     }
     .ultimoFooter{
         display: flex;
@@ -391,22 +403,28 @@ header{
     .cards{
         margin-right: 10px;
         width: 500px;
-        margin: 10px auto;
+        margin: 30px auto;
     }
     header{ 
         margin: 15px;
         display: flex;
         flex-wrap: wrap;
     }
+    .lista_menu{
+        display: flex;
+        flex-wrap: wrap;
+    }
     .logo_nissan{
         width: 100px;
-       
-        
+
     }
     .logo{
         display: flex;
         margin: 0 auto;
         align-items: center;
+    }
+    .footer{
+        height: 450px;
     }
     .ultimoFooter{
         display: flex;
@@ -437,6 +455,9 @@ header{
         
         margin-left: 100px;
         
+    }
+    .Main{
+        margin-top: -91px;
     }
 }
 @media(width<=530px){
@@ -447,7 +468,7 @@ header{
     .cards{
         margin-right: 10px;
         width: 350px;
-        margin: 10px auto;
+        margin: 30px auto;
     }
     header{ 
         margin: 15px;
@@ -463,6 +484,9 @@ header{
         display: flex;
         margin: 0 auto;
         align-items: center;
+    }
+    .footer{
+        height: 450px;
     }
     .ultimoFooter{
         display: flex;
@@ -493,6 +517,74 @@ header{
         
         margin-left: 100px;
         
+    }
+    .Main{
+        margin-top: -91px;
+    }
+    @media(width<465px){
+        .card{
+            width: calc((100%/1));
+            
+        }
+        .cards{
+            margin-right: 10px;
+            width: 350px;
+            margin: 30px auto;
+        }
+        header{ 
+            margin: 15px;
+            display: flex;
+            flex-wrap: wrap;
+        }
+        .logo_nissan{
+            width: 100px;
+           
+            
+        }
+        .logo{
+            display: flex;
+            margin: 0 auto;
+            align-items: center;
+        }
+        .footer{
+            height: 450px;
+        }
+        .ultimoFooter{
+            display: flex;
+        justify-content: center;
+        justify-content: space-between;
+        overflow: hidden;
+        }
+        .uno{
+            margin-left: 20px;
+            margin-top: 10px;
+        }
+        .dos{
+            margin-left: 20px;
+            margin-top: 10px;
+        }
+        .tres{
+            margin-left: 20px;
+            margin-top: 10px;
+        }
+        .cuatrop{
+            margin-left: 20px;
+            margin-top: 10px;
+        }
+        .logo_autoselectpro{
+            left: 85%;  
+        }
+        .textPrefooter{
+            
+            margin-left: 100px;
+            
+        }
+        .Main{
+            margin-top: -110px;
+        }
+        .autoselectpro h2{
+            font-size: 10px;
+        }
     }
     
 }
