@@ -11,8 +11,11 @@ header {
     justify-content: space-between;
 }
 
-.logo_nissan {
-    width: 130px;
+
+
+.logo {
+    margin: 2.25vw 50px 50px;
+    width: 10%;
 }
 
 .menu {
@@ -53,14 +56,14 @@ header {
 body {
     background-image: url(../img/cuadrito1.jpg);
     background-repeat: no-repeat;
-    background-size: 100%;
+    background-size: 100% auto;
+    height: 200px;
 }
 
 .autoselectpro {
     display: flex;
     justify-content: end;
-    margin-top: -83px;
-    background-color: rgba(253, 253, 253, 0.116);
+    margin-top: -75px;
 }
 
 .autoselectpro_link {
@@ -73,8 +76,13 @@ body {
     text-decoration: underline;
 }
 
+.section_banner {
+    width: 100%;
+    height: 600px;
+}
+
 .info_banner {
-    margin-top: 90px;
+
     margin-left: 30px;
     color: white;
     font-family: 'Encode Sans Semi Condensed';
@@ -119,11 +127,13 @@ body {
     display: flex;
     justify-content: center;
     margin-top: 11%;
+
 }
 
 .img_banner {
     width: 200px;
     height: 120px;
+
 }
 
 .lista_automoviles {
@@ -177,11 +187,6 @@ body {
     width: 200px;
 }
 
-.--carrito6 {
-    margin-left: 130px;
-    margin-top: 30px;
-    width: 200px;
-}
 
 .p_carritos {
     text-align: center;
@@ -599,4 +604,29 @@ body {
 .cuatrop {
     margin-top: 30px;
     margin-left: 50px;
+}
+
+@media(600px< width<=768px) {
+    .textPrefooter {
+        margin-left: 100px;
+    }
+
+    .ultimoFooter {
+        display: flex;
+        flex-wrap: wrap;
+        overflow: hidden;
+    }
+}
+
+/*REPSONSIVE*/
+
+/*PANTALLAS GRANDES*/
+@media(width>1700px) {
+
+
+    .lista_automoviles {
+        margin-top: 50px;
+    }
+
+    .section_automoviles {}
 }
