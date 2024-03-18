@@ -521,6 +521,7 @@ header{
     .Main{
         margin-top: -91px;
     }
+}
     @media(width<465px){
         .card{
             width: calc((100%/1));
@@ -587,4 +588,3 @@ header{
         }
     }
     
-}
