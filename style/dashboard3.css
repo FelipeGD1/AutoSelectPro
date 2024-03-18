@@ -1,0 +1,436 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: "Nissan Light", "Nissan Regular", Verdana, Arial, sans-serif;
+}
+
+body {
+    background-color: rgb(235, 234, 234);
+}
+
+header {
+    display: flex;
+}
+
+main {
+    display: flex;
+}
+
+.bloqueIzqDash {
+    height: 83vh;
+    width: 280px;
+    background-color: rgb(253, 253, 253);
+    position: static;
+}
+
+.bloqueLogoDash {
+    background-color: rgb(18, 19, 21);
+    width: 280px;
+    height: 130px;
+    display: flex;
+}
+
+.bloqueImgDash {
+    width: 180px;
+    height: 110px;
+    margin: auto;
+    justify-content: center;
+    margin: auto;
+    align-items: center;
+}
+
+.logoDash {
+    height: 100%;
+    width: 100%;
+}
+
+.listaDash {
+    list-style: none;
+}
+
+.listadoDash {
+    padding: 15px;
+}
+
+.svgDash {
+    margin-right: 15px;
+    color: rgb(18, 19, 21);
+    height: 20px;
+    width: 20px;
+}
+
+.textoMenuDash1 {
+    text-decoration: none;
+    color: rgb(124, 124, 124);
+}
+
+.textoMenuDash2 {
+    text-decoration: none;
+    color: rgb(124, 124, 124);
+}
+
+.textoMenuDash3 {
+    text-decoration: none;
+    color: rgb(65, 65, 65);
+    text-decoration: underline;
+}
+
+.textoMenuDash1:hover {
+    color: rgb(65, 65, 65);
+}
+
+.textoMenuDash2:hover {
+    color: rgb(65, 65, 65);
+}
+
+.svgDash2p {
+    margin-left: 129px;
+    color: rgb(18, 19, 21);
+}
+
+.svgDash2s {
+    margin-left: 92px;
+    color: rgb(18, 19, 21);
+}
+
+.svgDash2t {
+    margin-left: 123px;
+    color: rgb(18, 19, 21);
+}
+
+.navMenu {
+    width: 80%;
+    height: 100px;
+}
+
+.svgNav {
+    padding: 15px;
+    margin-top: 10px;
+    color: rgb(18, 19, 21);
+}
+
+.svgNav2 {
+    color: rgb(18, 19, 21);
+}
+
+.svgNav3 {
+    color: rgb(18, 19, 21);
+}
+
+.menuDerecha {
+    width: 350px;
+    padding: 15px;
+    float: right;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.imgPersonaPanel {
+    width: 50px;
+    height: 50px;
+    border-radius: 100%;
+}
+
+.imgPersonaPanel:hover {
+    filter: grayscale(30%);
+    transition: filter 0.5s;
+}
+
+.rangoPanel {
+    color: rgb(124, 124, 124);
+}
+
+.contPrinciDash {
+    margin: auto;
+    width: 80%;
+    height: 82vh;
+    background-color: rgb(253, 253, 253);
+    border-radius: 5px;
+}
+
+.tabUsuariosDash {
+    overflow-y: auto;
+    padding: 15px;
+    width: 95%;
+    height: 545px;
+    margin: auto;
+
+}
+
+table {
+    border-collapse: collapse;
+    width: 100%;
+}
+
+th,
+td {
+    border: 1px solid black;
+    padding: 8px;
+    text-align: left;
+}
+
+th {
+    background-color: #f2f2f2;
+}
+
+th:not(:last-child),
+td:not(:last-child) {
+    border-right: 2px solid black;
+}
+
+.menuBusqArrib {
+    padding: 10px;
+    width: 97%;
+    margin: auto;
+    height: 40px;
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+}
+
+.busqDash {
+    width: 40%;
+    height: 50px;
+    display: flex;
+    justify-content: space-between;
+}
+
+#buscar {
+    padding: 8px 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 16px;
+    width: 200px;
+}
+
+#buscar:focus {
+    outline: none;
+    border-color: rgb(124, 124, 124);
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+.rolElegir:hover {
+    color: rgb(65, 65, 65);
+}
+
+.estadoElegir:hover {
+    color: rgb(65, 65, 65);
+}
+
+.svgAñadir {
+    margin-right: 10px;
+}
+
+.añadirElegir:hover {
+    color: rgb(65, 65, 65);
+}
+
+.botonAñadir {
+    font-size: 15px;
+    padding: 5px;
+    display: flex;
+    justify-content: center;
+}
+
+.botonAñadir:hover {
+    cursor: pointer;
+}
+
+.botonEditar {
+    width: 60px;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    margin: auto;
+    align-items: center;
+    background-color: #6ebd3e;
+    border-radius: 5px;
+    border-color: #5fa334;
+}
+
+.botonEditar:hover {
+    cursor: pointer;
+}
+
+.botonEliminar {
+    width: 60px;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    margin: auto;
+    align-items: center;
+    background-color: #d94c4c;
+    border-radius: 5px;
+    border-color: #bb4242;
+}
+
+.botonEliminar:hover {
+    cursor: pointer;
+}
+
+
+@media (min-width: 1300px) and (max-width: 1450px) {
+    .contPrinciDash {
+        margin: auto;
+        width: 78%;
+        height: 83vh;
+        background-color: rgb(253, 253, 253);
+        border-radius: 5px;
+    }
+}
+
+
+@media (min-width: 1190px) and (max-width: 1300px) {
+    .contPrinciDash {
+        margin: auto;
+        width: 75%;
+        height: 83vh;
+        background-color: rgb(253, 253, 253);
+        border-radius: 5px;
+    }
+
+    .bloqueIzqDash {
+        height: 86vh;
+        width: 280px;
+        background-color: rgb(253, 253, 253);
+        position: static;
+    }
+
+    .navMenu {
+        width: 76%;
+        height: 100px;
+    }
+
+}
+
+@media (min-width: 768px) and (max-width : 1189px) {
+    .contPrinciDash {
+        margin: auto;
+        width: 72%;
+        height: 83vh;
+        background-color: rgb(253, 253, 253);
+        border-radius: 5px;
+    }
+
+    .bloqueIzqDash {
+        height: 86vh;
+        width: 280px;
+        background-color: rgb(253, 253, 253);
+        position: static;
+    }
+
+    .navMenu {
+        width: 70%;
+        height: 100px;
+    }
+}
+
+@media (min-width: 768px) and (max-width: 1100px) {
+    .contPrinciDash {
+        margin: auto;
+        width: 68%;
+        height: 83vh;
+        background-color: rgb(253, 253, 253);
+        border-radius: 5px;
+    }
+
+    .bloqueIzqDash {
+        height: 86vh;
+        width: 280px;
+        background-color: rgb(253, 253, 253);
+        position: static;
+    }
+
+    .navMenu {
+        width: 70%;
+        height: 100px;
+    }
+
+    #buscar {
+        padding: 8px 12px;
+        border: 1px solid #ccc;
+        border-radius: 4px;
+        font-size: 13px;
+        width: 150px;
+    }
+
+}
+
+@media (min-width: 768px) and (max-width: 951px) {
+    .contPrinciDash {
+        margin: auto;
+        width: 65%;
+        height: 83vh;
+        background-color: rgb(253, 253, 253);
+        border-radius: 5px;
+    }
+
+    .bloqueIzqDash {
+        height: 86vh;
+        width: 230px;
+        background-color: rgb(253, 253, 253);
+        position: static;
+    }
+
+    .navMenu {
+        width: 65%;
+        height: 100px;
+    }
+
+    .bloqueLogoDash {
+        background-color: rgb(18, 19, 21);
+        width: 230px;
+        height: 130px;
+        display: flex;
+    }
+
+    .bloqueImgDash {
+        width: 180px;
+        height: 110px;
+        margin: auto;
+        justify-content: center;
+        margin: auto;
+        align-items: center;
+    }
+
+    .svgDash2p {
+        margin-left: 75px;
+        color: rgb(18, 19, 21);
+    }
+
+    .svgDash2s {
+        margin-left: 37px;
+        color: rgb(18, 19, 21);
+    }
+
+    .svgDash2t {
+        margin-left: 68px;
+        color: rgb(18, 19, 21);
+    }
+
+    .menuBusqArrib {
+        padding: 10px;
+        width: 97%;
+        margin: auto;
+        height: 40px;
+        display: flex;
+        justify-content: space-between;
+        align-items: baseline;
+        font-size: 12px;
+    }
+
+    #buscar {
+        padding: 8px 12px;
+        border: 1px solid #ccc;
+        border-radius: 4px;
+        font-size: 10px;
+        width: 100px;
+    }
+
+
+}

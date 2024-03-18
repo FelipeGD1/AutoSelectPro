@@ -314,3 +314,124 @@ form label {
     margin-top: 30px;
     margin-left: 50px;
 }
+
+/*media querys*/
+
+/*Portatiles*/
+@media(768px< width<1300px){
+    .ultimoFooter{
+        display: flex;
+        justify-content: center;
+        justify-content: space-between;
+        overflow: hidden;
+    }
+    .uno{
+        margin-left: 20px;
+        margin-top: 10px;
+    }
+    .dos{
+        margin-left: 20px;
+        margin-top: 10px;
+    }
+    .tres{
+        margin-left: 20px;
+        margin-top: 10px;
+    }
+    .cuatrop{
+        margin-left: 20px;
+        margin-top: 10px;
+    }
+    .logo_autoselectpro{
+        left: 85%;  
+    }
+}
+/*tablets*/
+@media(600px< width<=768px){
+    .card{
+        width: calc((100%/1));
+    }
+    .cards{
+        margin-right: 10px;
+        width: 500px;
+        margin: 30px auto;
+    }
+    .footer{
+        height: 450px;
+    }
+    .ultimoFooter{
+        display: flex;
+        flex-wrap: wrap;
+        overflow: hidden;
+    }
+    .uno{
+        margin-left: 20px;
+        margin-top: 10px;
+    }
+    .dos{
+        margin-left: 20px;
+        margin-top: 10px;
+    }
+    .tres{
+        margin-left: 20px;
+        margin-top: 10px;
+    }
+    .cuatrop{
+        margin-left: 20px;
+        margin-top: 10px;
+    }
+    .textPrefooter{
+        
+        margin-left: 100px;
+        
+    }
+    .logo_autoselectpro{
+        left: 85%;  
+    }
+}
+/*celulares*/
+@media(width<=600px){
+    header{ 
+        margin: 15px;
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .lista_menu{
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .footer{
+        height: 450px;
+    }
+    .ultimoFooter{
+        display: flex;
+    justify-content: center;
+    justify-content: space-between;
+    overflow: hidden;
+    }
+    .uno{
+        margin-left: 20px;
+        margin-top: 10px;
+    }
+    .dos{
+        margin-left: 20px;
+        margin-top: 10px;
+    }
+    .tres{
+        margin-left: 20px;
+        margin-top: 10px;
+    }
+    .cuatrop{
+        margin-left: 20px;
+        margin-top: 10px;
+    }
+   
+    .textPrefooter{
+        
+        margin-left: 100px;
+        
+    }
+    .logo_autoselectpro{
+        left: 85%;  
+    }
+  
+}
