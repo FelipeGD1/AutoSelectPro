@@ -61,8 +61,7 @@ main {
 
 .textoMenuDash1 {
     text-decoration: none;
-    color: rgb(65, 65, 65);
-    text-decoration: underline;
+    color: rgb(124, 124, 124);
 }
 
 .textoMenuDash2 {
@@ -72,14 +71,15 @@ main {
 
 .textoMenuDash3 {
     text-decoration: none;
-    color: rgb(124, 124, 124);
+    color: rgb(65, 65, 65);
+    text-decoration: underline;
 }
 
-.textoMenuDash2:hover {
+.textoMenuDash1:hover {
     color: rgb(65, 65, 65);
 }
 
-.textoMenuDash3:hover {
+.textoMenuDash2:hover {
     color: rgb(65, 65, 65);
 }
 
@@ -272,6 +272,7 @@ a {
 .botonEliminar:hover {
     cursor: pointer;
 }
+
 
 @media (min-width: 1300px) and (max-width: 1450px) {
     .contPrinciDash {
