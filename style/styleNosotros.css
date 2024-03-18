@@ -80,10 +80,14 @@ header{
     font-size: 20px;
 }
 
-.carrusel{
-  
+.carrusel{ 
     height: 650px;
 }
+.flechas{
+    display: flex;
+    justify-content: center;
+}
+
 .cards{
     margin: 0px auto;
     max-width: 1250px;
@@ -587,4 +591,3 @@ header{
             font-size: 10px;
         }
     }
-    
