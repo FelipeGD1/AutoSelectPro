@@ -1,32 +1,43 @@
 * {
     padding: 0;
     margin: 0;
-    font-family: 'Encode Sans Semi Condensed', sans-serif;
+    font-family: "Encode Sans Semi Condensed", sans-serif;
 }
 
 /*************************header********************/
+
+.container {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+    /*border: 1px solid violet;*/
+    padding-left: 33px;
+}
+
 header {
     padding: 15px;
     display: flex;
-    justify-content: space-between;
+    flex-direction: column;
+    background-image: url(../img/index/banner_grande.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    /* background-size: 100% auto; */
+    height: 700px;
 }
 
-
 .logo_nissan {
-    width: 130px;
+    width: 180px;
 }
 
 .menu {
     width: 650px;
 }
 
-
 .lista_menu {
     display: flex;
     justify-content: space-around;
     list-style: none;
 }
-
 
 .a_menu {
     text-decoration: none;
@@ -36,7 +47,6 @@ header {
     font-size: 14px;
     font-weight: 500;
     color: white;
-
 }
 
 .texto_menu:hover {
@@ -47,28 +57,24 @@ header {
 .logo_menu {
     margin-top: -5px;
     width: 20px;
-
 }
 
 /*************************body********************/
 body {
-    background-image: url(../img/cuadrito1.jpg);
-    background-repeat: no-repeat;
-    background-size: 100% auto;
-    height: 200px;
+    border: 1px solid red;
 }
 
 .autoselectpro {
     display: flex;
     justify-content: end;
-    margin-top: -83px;
+    margin-top: -100px;
     background-color: rgba(253, 253, 253, 0.116);
 }
 
 .autoselectpro_link {
     text-decoration: none;
     color: black;
-    font-family: 'Encode Sans Semi Condensed', sans-serif;
+    font-family: "Encode Sans Semi Condensed", sans-serif;
     padding-right: 40px;
     font-size: 17px;
     font-weight: 500;
@@ -76,10 +82,10 @@ body {
 }
 
 .info_banner {
-    margin-top: 90px;
+    margin-top: 120px;
     margin-left: 30px;
     color: white;
-    font-family: 'Encode Sans Semi Condensed';
+    font-family: "Encode Sans Semi Condensed";
 }
 
 .p1_banner {
@@ -103,48 +109,57 @@ body {
     padding: 15px 25px;
     background-color: rgb(195, 0, 47);
     color: white;
-    font-family: 'Encode Sans Semi Condensed';
+    font-family: "Encode Sans Semi Condensed";
     font-weight: 500;
     border: 0px;
     border-radius: 1px;
 }
 
-
 .boton_banner:hover {
     cursor: pointer;
     opacity: 0.8;
     transition: all 0.2s ease-in-out;
-
 }
 
 .imagenes_banner {
     display: flex;
     justify-content: center;
-    margin-top: 11%;
+    margin-top: -60px;
+    overflow: auto;
+}
 
+.imagenes_banner::-webkit-scrollbar {
+    height: 5px;
+    background-color: #f0f0f0;
+}
+
+.imagenes_banner::-webkit-scrollbar-thumb {
+    background-color: #ccc;
+    border-radius: 5px;
 }
 
 .img_banner {
     width: 200px;
     height: 120px;
+}
 
+.menu_automoviles {
+    margin-left: 130px;
 }
 
 .lista_automoviles {
     display: flex;
     list-style: none;
-    margin-left: 130px;
 }
 
 .texto_automoviles {
     padding: 5px;
     color: black;
-    font-family: 'Encode Sans Semi Condensed';
+    font-family: "Encode Sans Semi Condensed";
     font-size: 14px;
     margin-top: 50px;
     padding-right: 20px;
     font-weight: 1000;
-
 }
 
 .--destacados {
@@ -160,16 +175,29 @@ body {
     transition: all 0.2s ease-in-out;
 }
 
-.automoviles {
+.section-header {
+    margin-left: 130px;
+    margin-top: 20px;
+}
+
+.header-link {
+    font-size: header-link;
+    line-height: 1.57142857;
+    color: #8a8a8a;
+}
+
+.vehicles-container {
     display: flex;
-    justify-content: center;
+    flex-direction: row;
     flex-wrap: wrap;
-    margin-left: 50px;
-    margin-top: 30px;
+    margin: 0 80px;
+    text-align: center;
+    padding: 30px 0 0;
 }
 
 .carrito_boton {
     padding-right: 60px;
+    padding-top: 20px;
 }
 
 .carrito_boton:hover {
@@ -180,7 +208,6 @@ body {
 .img_carritos {
     width: 200px;
 }
-
 
 .p_carritos {
     text-align: center;
@@ -193,7 +220,7 @@ body {
 
 .a_carritos {
     text-decoration: none;
-    font-family: 'Encode Sans Semi Condensed';
+    font-family: "Encode Sans Semi Condensed";
     color: black;
     font-weight: 1000;
 }
@@ -208,7 +235,7 @@ body {
     width: 1200px;
     margin: 40px 0;
     padding: 50px 0;
-    font-family: 'Encode Sans Semi Condensed';
+    font-family: "Encode Sans Semi Condensed";
     text-align: center;
 }
 
@@ -228,7 +255,7 @@ body {
     padding: 15px 25px;
     background-color: rgb(195, 0, 47);
     color: white;
-    font-family: 'Encode Sans Semi Condensed';
+    font-family: "Encode Sans Semi Condensed";
     font-weight: 500;
     border: 0px;
     border-radius: 1px;
@@ -241,13 +268,12 @@ body {
     cursor: pointer;
 }
 
-
 .campanas_seguridad {
     background-color: rgb(238, 234, 234);
     width: 1200px;
     margin: 40px 0;
     padding: 50px 0;
-    font-family: 'Encode Sans Semi Condensed';
+    font-family: "Encode Sans Semi Condensed";
     text-align: center;
 }
 
@@ -262,7 +288,7 @@ body {
     padding: 15px 25px;
     background-color: rgb(195, 0, 47);
     color: white;
-    font-family: 'Encode Sans Semi Condensed';
+    font-family: "Encode Sans Semi Condensed";
     font-weight: 500;
     border: 0px;
     border-radius: 1px;
@@ -280,7 +306,7 @@ body {
     width: 1200px;
     margin: 40px 0;
     padding: 50px 0;
-    font-family: 'Encode Sans Semi Condensed';
+    font-family: "Encode Sans Semi Condensed";
     text-align: center;
 }
 
@@ -353,6 +379,9 @@ body {
 .noticia_singular {
     display: flex;
     justify-content: center;
+    flex-wrap: wrap;
+    width: 100%;
+    overflow: hidden;
 }
 
 .noticia_singular_titulo {
@@ -386,7 +415,7 @@ body {
     padding: 15px 25px;
     background-color: rgb(195, 0, 47);
     color: white;
-    font-family: 'Encode Sans Semi Condensed';
+    font-family: "Encode Sans Semi Condensed";
     font-weight: 500;
     border: 0px;
     border-radius: 1px;
@@ -413,7 +442,7 @@ body {
     padding: 15px 25px;
     background-color: rgb(195, 0, 47);
     color: white;
-    font-family: 'Encode Sans Semi Condensed';
+    font-family: "Encode Sans Semi Condensed";
     font-weight: 500;
     border: 0px;
     border-radius: 1px;
@@ -439,7 +468,7 @@ body {
 .footer {
     height: 400px;
     width: 100%;
-    background-color: #1A1A1A;
+    background-color: #1a1a1a;
     display: flex;
     justify-content: center;
     flex-direction: row;
@@ -451,11 +480,10 @@ body {
     justify-content: center;
     justify-content: space-between;
     overflow: hidden;
-
 }
 
 .primer {
-    width: calc(100%/4);
+    width: calc(100% / 4);
     font-size: 10px;
 }
 
@@ -473,7 +501,7 @@ body {
 .primer h3 {
     display: flex;
     margin-top: 20px;
-    color: #8A8A8A;
+    color: #8a8a8a;
 }
 
 .primer h3:hover {
@@ -482,7 +510,7 @@ body {
 }
 
 .segundo {
-    width: calc(100%/4);
+    width: calc(100% / 4);
     font-size: 10px;
 }
 
@@ -495,13 +523,12 @@ body {
 .segundo h2:hover {
     text-decoration: underline;
     cursor: pointer;
-
 }
 
 .segundo h3 {
     display: flex;
     margin-top: 20px;
-    color: #8A8A8A;
+    color: #8a8a8a;
 }
 
 .segundo h3:hover {
@@ -510,7 +537,7 @@ body {
 }
 
 .tercer {
-    width: calc(100%/4);
+    width: calc(100% / 4);
     font-size: 10px;
 }
 
@@ -528,7 +555,7 @@ body {
 .tercer h3 {
     display: flex;
     margin-top: 20px;
-    color: #8A8A8A;
+    color: #8a8a8a;
 }
 
 .tercer h3:hover {
@@ -556,11 +583,9 @@ body {
     height: 42px;
     line-height: 42px;
     font-size: 20px;
-    transition: .3s;
+    transition: 0.3s;
     margin-top: 15px;
     margin-left: 15px;
-
-
 }
 
 .redes2 a:hover {
@@ -570,13 +595,12 @@ body {
 
 /***********************************ULTIMO*******************************************/
 
-
 .ultimoFooter {
     display: flex;
     width: 100%;
     height: 70px;
     background-color: #000000;
-    color: #8A8A8A;
+    color: #8a8a8a;
     font-size: 10px;
 }
 
@@ -593,6 +617,8 @@ body {
 .tres {
     margin-top: 30px;
     margin-left: 486px;
+    display: flex;
+
 }
 
 .cuatrop {
@@ -600,23 +626,153 @@ body {
     margin-left: 50px;
 }
 
-
-
 /*RESPONSIVE*/
 
-/*PANTALLAS GRANDES*/
-@media(width>1700px) {
+/*COMPUTADORES*/
 
-
-    .lista_automoviles {
-        margin-top: 50px;
+@media screen and (min-width: 1700px) {
+    .menu_automoviles {
+        margin-left: 250px;
     }
 
+    .rayita {
+        margin-left: 250px;
+    }
+
+    .titulo_redes_sociales {
+        margin-left: 250px;
+    }
+
+    .titulo_noticias {
+        margin-left: 250px;
+    }
+}
+
+/*PORTATILES*/
+
+@media screen and (min-width: 769px) and (max-width: 1300px) {
+
+
+
+    .menu_automoviles {
+        margin-left: 10px
+    }
+
+    .ultimoFooter {
+        display: flex;
+        justify-content: center;
+        justify-content: space-between;
+        overflow: hidden;
+    }
+
+    .uno {
+        margin-left: 20px;
+        margin-top: 10px;
+    }
+
+    .dos {
+        margin-left: 20px;
+        margin-top: 10px;
+    }
+
+    .tres {
+        margin-left: 20px;
+        margin-top: 10px;
+    }
+
+    .cuatrop {
+        margin-left: 20px;
+        margin-top: 10px;
+    }
+
+    .logo_autoselectpro {
+        left: 90%;
+    }
 }
 
 /*TABLETS*/
 
-@media(600px< width<=768px) {
+@media screen and (min-width: 583px) and (max-width: 768px) {
+
+    header {
+        padding: 15px;
+        display: flex;
+        flex-direction: column;
+        border: 1px solid rgb(50, 187, 103);
+        background-image: url(../img/index/banner_mediano.jpg);
+        background-size: cover;
+        height: 700px;
+    }
+
+    .logo_nissan {
+        width: 130px;
+    }
+
+    .autoselectpro {
+        margin-top: -80px;
+    }
+
+    .section_banner {
+        margin-top: -30px;
+        padding-top: 60px;
+        overflow-x: auto;
+        width: 100%;
+    }
+
+    .section_banner::-webkit-scrollbar {
+        height: 5px;
+        background-color: #f0f0f0;
+    }
+
+    .section_banner::-webkit-scrollbar-thumb {
+        background-color: #ccc;
+        border-radius: 5px;
+    }
+
+    .menu_automoviles {
+        margin-left: 10px;
+        overflow-x: auto;
+        width: 95%;
+    }
+
+    .menu_automoviles::-webkit-scrollbar {
+        height: 2px;
+        background-color: #f0f0f0;
+    }
+
+    .menu_automoviles::-webkit-scrollbar-thumb {
+        background-color: rgb(195, 0, 47);
+        ;
+        border-radius: 5px;
+    }
+
+    .carrito_boton {
+        width: 150px;
+        margin-top: 20px;
+    }
+
+    .p_carritos {
+        margin-left: 10px;
+        width: 100%;
+    }
+
+    .rayita {
+        margin-left: 20px;
+    }
+
+    .titulo_redes_sociales {
+        margin-left: 20px;
+    }
+
+    .titulo_noticias {
+        margin-left: 20px;
+    }
+
+    .img_logo_autoselectpro {
+        width: 70px;
+        height: 70px;
+    }
+
     .footer {
         height: 450px;
     }
@@ -653,16 +809,72 @@ body {
     }
 
     .textPrefooter {
-
         margin-left: 100px;
-
     }
 }
-
 
 /*CELULARES*/
 
-@media(width<=600px) {
+@media (width<=600px) {
+
+    header {
+        padding: 15px;
+        display: flex;
+        flex-direction: column;
+        background-image: url(../img/index/banner_pequeno.jpg);
+        background-size: cover;
+        height: 950px;
+    }
+
+    .section_banner {
+        padding-top: 65px;
+        margin: 0;
+    }
+
+
+
+    .logo {
+        display: flex;
+        margin: 0 auto;
+        align-items: center;
+    }
+
+    .menu_automoviles {
+        margin-left: 10px;
+        overflow-x: auto;
+        width: 95%;
+    }
+
+    .menu_automoviles::-webkit-scrollbar {
+        height: 2px;
+        background-color: #f0f0f0;
+    }
+
+    .menu_automoviles::-webkit-scrollbar-thumb {
+        background-color: rgb(195, 0, 47);
+        border-radius: 5px;
+    }
+
+    .rayita {
+        margin-left: 10px;
+    }
+
+    .titulo_redes_sociales {
+        margin-left: 10px;
+    }
+
+    .titulo_noticias {
+        margin-left: 10px;
+    }
+
+    .noticia_singular_titulo {
+        width: 90%;
+    }
+
+    .img_noticia_singular {
+        width: 100%;
+    }
+
     .footer {
         height: 450px;
     }
@@ -699,95 +911,90 @@ body {
     }
 
     .textPrefooter {
-
         margin-left: 100px;
-
     }
+
+
 }
 
-@media(width<=530px) {
-    .footer {
-        height: 450px;
-    }
+/* @media (width<=530px) {
+  .footer {
+    height: 450px;
+  }
 
-    .ultimoFooter {
-        display: flex;
-        justify-content: center;
-        justify-content: space-between;
-        overflow: hidden;
-    }
+  .ultimoFooter {
+    display: flex;
+    justify-content: center;
+    justify-content: space-between;
+    overflow: hidden;
+  }
 
-    .uno {
-        margin-left: 20px;
-        margin-top: 10px;
-    }
+  .uno {
+    margin-left: 20px;
+    margin-top: 10px;
+  }
 
-    .dos {
-        margin-left: 20px;
-        margin-top: 10px;
-    }
+  .dos {
+    margin-left: 20px;
+    margin-top: 10px;
+  }
 
-    .tres {
-        margin-left: 20px;
-        margin-top: 10px;
-    }
+  .tres {
+    margin-left: 20px;
+    margin-top: 10px;
+  }
 
-    .cuatrop {
-        margin-left: 20px;
-        margin-top: 10px;
-    }
+  .cuatrop {
+    margin-left: 20px;
+    margin-top: 10px;
+  }
 
-    .logo_autoselectpro {
-        left: 85%;
-    }
+  .logo_autoselectpro {
+    left: 85%;
+  }
 
-    .textPrefooter {
-
-        margin-left: 100px;
-
-    }
+  .textPrefooter {
+    margin-left: 100px;
+  }
 }
 
-@media(width<465px) {
+@media (width<465px) {
+  .footer {
+    height: 450px;
+  }
 
-    .footer {
-        height: 450px;
-    }
+  .ultimoFooter {
+    display: flex;
+    justify-content: center;
+    justify-content: space-between;
+    overflow: hidden;
+  }
 
-    .ultimoFooter {
-        display: flex;
-        justify-content: center;
-        justify-content: space-between;
-        overflow: hidden;
-    }
+  .uno {
+    margin-left: 20px;
+    margin-top: 10px;
+  }
 
-    .uno {
-        margin-left: 20px;
-        margin-top: 10px;
-    }
+  .dos {
+    margin-left: 20px;
+    margin-top: 10px;
+  }
 
-    .dos {
-        margin-left: 20px;
-        margin-top: 10px;
-    }
+  .tres {
+    margin-left: 20px;
+    margin-top: 10px;
+  }
 
-    .tres {
-        margin-left: 20px;
-        margin-top: 10px;
-    }
+  .cuatrop {
+    margin-left: 20px;
+    margin-top: 10px;
+  }
 
-    .cuatrop {
-        margin-left: 20px;
-        margin-top: 10px;
-    }
+  .logo_autoselectpro {
+    left: 85%;
+  }
 
-    .logo_autoselectpro {
-        left: 85%;
-    }
-
-    .textPrefooter {
-
-        margin-left: 100px;
-
-    }
-}
+  .textPrefooter {
+    margin-left: 100px;
+  }
+} */
