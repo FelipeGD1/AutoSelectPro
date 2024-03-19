@@ -145,6 +145,7 @@ body {
 
 .menu_automoviles {
     margin-left: 130px;
+    padding-top: 70px;
 }
 
 .lista_automoviles {
@@ -181,9 +182,9 @@ body {
 }
 
 .header-link {
-    font-size: header-link;
     line-height: 1.57142857;
     color: #8a8a8a;
+    display: none;
 }
 
 .vehicles-container {
@@ -193,6 +194,10 @@ body {
     margin: 0 80px;
     text-align: center;
     padding: 30px 0 0;
+}
+
+.tabs-content {
+    display: none;
 }
 
 .carrito_boton {
@@ -652,7 +657,26 @@ body {
 
 @media screen and (min-width: 769px) and (max-width: 1300px) {
 
+    header {
+        height: 500px;
+    }
 
+    .logo_nissan {
+        width: 125px;
+    }
+
+    .autoselectpro {
+        margin-top: -77px;
+    }
+
+    .info_banner {
+        margin-top: 85px;
+    }
+
+    .img_banner {
+        width: 150px;
+        height: 90px;
+    }
 
     .menu_automoviles {
         margin-left: 10px
@@ -918,83 +942,83 @@ body {
 }
 
 /* @media (width<=530px) {
-  .footer {
-    height: 450px;
-  }
+    .footer {
+        height: 450px;
+    }
 
-  .ultimoFooter {
-    display: flex;
-    justify-content: center;
-    justify-content: space-between;
-    overflow: hidden;
-  }
+    .ultimoFooter {
+        display: flex;
+        justify-content: center;
+        justify-content: space-between;
+        overflow: hidden;
+    }
 
-  .uno {
-    margin-left: 20px;
-    margin-top: 10px;
-  }
+    .uno {
+        margin-left: 20px;
+        margin-top: 10px;
+    }
 
-  .dos {
-    margin-left: 20px;
-    margin-top: 10px;
-  }
+    .dos {
+        margin-left: 20px;
+        margin-top: 10px;
+    }
 
-  .tres {
-    margin-left: 20px;
-    margin-top: 10px;
-  }
+    .tres {
+        margin-left: 20px;
+        margin-top: 10px;
+    }
 
-  .cuatrop {
-    margin-left: 20px;
-    margin-top: 10px;
-  }
+    .cuatrop {
+        margin-left: 20px;
+        margin-top: 10px;
+    }
 
-  .logo_autoselectpro {
-    left: 85%;
-  }
+    .logo_autoselectpro {
+        left: 85%;
+    }
 
-  .textPrefooter {
-    margin-left: 100px;
-  }
-}
+    .textPrefooter {
+        margin-left: 100px;
+    }
+    }
 
-@media (width<465px) {
-  .footer {
-    height: 450px;
-  }
+    @media (width<465px) {
+    .footer {
+        height: 450px;
+    }
 
-  .ultimoFooter {
-    display: flex;
-    justify-content: center;
-    justify-content: space-between;
-    overflow: hidden;
-  }
+    .ultimoFooter {
+        display: flex;
+        justify-content: center;
+        justify-content: space-between;
+        overflow: hidden;
+    }
 
-  .uno {
-    margin-left: 20px;
-    margin-top: 10px;
-  }
+    .uno {
+        margin-left: 20px;
+        margin-top: 10px;
+    }
 
-  .dos {
-    margin-left: 20px;
-    margin-top: 10px;
-  }
+    .dos {
+        margin-left: 20px;
+        margin-top: 10px;
+    }
 
-  .tres {
-    margin-left: 20px;
-    margin-top: 10px;
-  }
+    .tres {
+        margin-left: 20px;
+        margin-top: 10px;
+    }
 
-  .cuatrop {
-    margin-left: 20px;
-    margin-top: 10px;
-  }
+    .cuatrop {
+        margin-left: 20px;
+        margin-top: 10px;
+    }
 
-  .logo_autoselectpro {
-    left: 85%;
-  }
+    .logo_autoselectpro {
+        left: 85%;
+    }
 
-  .textPrefooter {
-    margin-left: 100px;
-  }
-} */
+    .textPrefooter {
+        margin-left: 100px;
+    }
+    } */
