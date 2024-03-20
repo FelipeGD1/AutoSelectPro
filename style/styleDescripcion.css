@@ -50,6 +50,7 @@ header {
 
 .preMain2 {
     display: flex;
+    align-items: center;
     justify-content: space-around;
     padding: 20px;
 }
@@ -75,7 +76,8 @@ header {
     background: url(../img/banner-principal-vehiculos-comerciales-v2.png.ximg.l_full_m.smart.png);
     background-size: cover;
     background-attachment: scroll;
-    height: 115vh;
+    width: 100%;
+    height: 900px;
     display: flex;
 }
 
@@ -211,7 +213,7 @@ header {
 }
 
 .separacion {
-    padding: 100px;
+    padding: 50px;
 }
 
 
@@ -394,4 +396,594 @@ header {
 .cuatrop {
     margin-top: 30px;
     margin-left: 50px;
+}
+
+
+/* Media querys para el footer */
+
+@media(1300px< width<1600) {
+    .imagenFondo {
+        height: 650px;
+    }
+}
+
+
+@media(768px< width<1300px) {
+
+    .preTexto1 {
+        font-weight: 100;
+        font-size: 20px;
+    }
+
+    .preMain2 {
+        font-size: 12px;
+    }
+
+    .botonRojo1 {
+        width: 160px;
+        height: 30px;
+        font-size: 10px;
+    }
+
+    .imagenFondo {
+        height: 550px;
+    }
+
+    .seccionPrimera {
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    .seccionSegunda {
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    .seccionTercera {
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+
+    .bloqueGris {
+        width: 450px;
+        height: 280px;
+    }
+
+    .titulobGris {
+        font-size: 25px;
+    }
+
+    .textobGris {
+        font-size: 12px;
+    }
+
+    .titulo1 {
+        font-size: 25px;
+    }
+
+    .imagen1 {
+        width: 520px;
+    }
+
+    .imagen2 {
+        width: 520px;
+    }
+
+    .titulo4 {
+        font-size: 25px;
+    }
+
+
+    .imagen3 {
+        width: 520px;
+    }
+
+    .textoTercero {
+        font-size: 20px;
+    }
+
+    .separacion {
+        padding: 100px;
+    }
+
+
+
+    .ultimoFooter {
+        display: flex;
+        justify-content: center;
+        justify-content: space-around;
+        overflow: hidden;
+    }
+
+    .uno {
+        margin-left: 20px;
+        margin-top: 10px;
+    }
+
+    .dos {
+        margin-left: 20px;
+        margin-top: 10px;
+    }
+
+    .tres {
+        margin-left: 20px;
+        margin-top: 10px;
+    }
+
+    .cuatrop {
+        margin-left: 20px;
+        margin-top: 10px;
+    }
+
+    .logo_autoselectpro {
+        left: 90%;
+    }
+}
+
+
+@media(600px< width<=768px) {
+
+
+    .preTexto1 {
+        font-weight: 100;
+        font-size: 20px;
+    }
+
+    .preMain2 {
+        font-size: 11px;
+    }
+
+    .botonRojo1 {
+        width: 135px;
+        height: 30px;
+        font-size: 9px;
+    }
+
+    .imagenFondo {
+        height: 400px;
+    }
+
+    .seccionPrimera {
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    .seccionSegunda {
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    .seccionTercera {
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+
+    .bloqueGris {
+        width: 450px;
+        height: 280px;
+        margin: 25px;
+    }
+
+    .titulobGris {
+        font-size: 20px;
+    }
+
+    .textobGris {
+        font-size: 12px;
+    }
+
+    .titulo1 {
+        font-size: 20px;
+    }
+
+    .imagen1 {
+        width: 400px;
+    }
+
+    .imagen2 {
+        width: 400px;
+    }
+
+    .titulo4 {
+        font-size: 20px;
+    }
+
+
+    .imagen3 {
+        width: 400px;
+    }
+
+    .texto1 {
+        font-size: 13px;
+    }
+
+    .texto2 {
+        font-size: 13px;
+    }
+
+
+    .textoTercero {
+        font-size: 17px;
+    }
+
+    .separacion {
+        padding: 100px;
+    }
+
+
+
+    .footer {
+        height: 450px;
+    }
+
+    .ultimoFooter {
+        display: flex;
+        flex-wrap: wrap;
+        overflow: hidden;
+    }
+
+    .uno {
+        margin-left: 20px;
+        margin-top: 10px;
+    }
+
+    .dos {
+        margin-left: 20px;
+        margin-top: 10px;
+    }
+
+    .tres {
+        margin-left: 20px;
+        margin-top: 10px;
+    }
+
+    .cuatrop {
+        margin-left: 20px;
+        margin-top: 10px;
+    }
+
+    .logo_autoselectpro {
+
+        left: 85%;
+    }
+
+    .textPrefooter {
+
+        margin-left: 100px;
+
+    }
+}
+
+@media(width<=600px) {
+    header {
+        margin: 15px;
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    .lista_menu {
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    .logo_nissan {
+        width: 100px;
+
+    }
+
+    .logo {
+        display: flex;
+        margin: 0 auto;
+        align-items: center;
+    }
+
+    .botonRojo1 {
+        width: 120px;
+        height: 25px;
+        font-size: 7px;
+    }
+
+
+    .preTexto1 {
+        font-weight: 100;
+        font-size: 20px;
+    }
+
+    .preMain2 {
+        font-size: 11px;
+    }
+
+    .botonRojo1 {
+        width: 135px;
+        height: 30px;
+        font-size: 9px;
+    }
+
+    .imagenFondo {
+        height: 300px;
+    }
+
+    .seccionPrimera {
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    .seccionSegunda {
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    .seccionTercera {
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+
+    .bloqueGris {
+        width: 700px;
+        height: 280px;
+        margin: 10px;
+    }
+
+    .titulobGris {
+        font-size: 20px;
+    }
+
+    .textobGris {
+        font-size: 12px;
+    }
+
+    .titulo1 {
+        font-size: 18px;
+    }
+
+    .imagen1 {
+        width: 350px;
+    }
+
+    .imagen2 {
+        width: 350px;
+    }
+
+    .titulo4 {
+        font-size: 18px;
+    }
+
+
+    .imagen3 {
+        width: 350px;
+    }
+
+    .texto1 {
+        font-size: 12px;
+    }
+
+    .texto2 {
+        font-size: 12px;
+    }
+
+
+    .textoTercero {
+        font-size: 15px;
+    }
+
+    .separacion {
+        padding: 100px;
+    }
+
+
+    .footer {
+        height: 450px;
+    }
+
+    .ultimoFooter {
+        display: flex;
+        justify-content: center;
+        justify-content: space-around;
+        overflow: hidden;
+    }
+
+    .uno {
+        margin-left: 20px;
+        margin-top: 10px;
+    }
+
+    .dos {
+        margin-left: 20px;
+        margin-top: 10px;
+    }
+
+    .tres {
+        margin-left: 20px;
+        margin-top: 10px;
+    }
+
+    .cuatrop {
+        margin-left: 20px;
+        margin-top: 10px;
+    }
+
+    .logo_autoselectpro {
+        left: 85%;
+    }
+
+    .textPrefooter {
+
+        margin-left: 100px;
+
+    }
+
+    .Main {
+        margin-top: -91px;
+    }
+}
+
+@media(width<=530px) {
+    header {
+        margin: 15px;
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    .logo_nissan {
+        width: 100px;
+
+
+    }
+
+    .logo {
+        display: flex;
+        margin: 0 auto;
+        align-items: center;
+    }
+
+    .footer {
+        height: 450px;
+    }
+
+    .ultimoFooter {
+        display: flex;
+        justify-content: center;
+        justify-content: space-around;
+        overflow: hidden;
+    }
+
+    .uno {
+        margin-left: 20px;
+        margin-top: 10px;
+    }
+
+    .dos {
+        margin-left: 20px;
+        margin-top: 10px;
+    }
+
+    .tres {
+        margin-left: 20px;
+        margin-top: 10px;
+    }
+
+    .cuatrop {
+        margin-left: 20px;
+        margin-top: 10px;
+    }
+
+    .logo_autoselectpro {
+        left: 85%;
+    }
+
+    .textPrefooter {
+
+        margin-left: 100px;
+
+    }
+}
+
+@media(width<465px) {
+
+    .botonRojo1 {
+        width: 100px;
+        height: 30px;
+        font-size: 8px;
+    }
+
+    .preTexto1 {
+        font-weight: 100;
+        font-size: 15px;
+    }
+
+    .imagen1 {
+        width: 280px;
+    }
+
+    .imagen2 {
+        width: 280px;
+    }
+
+    .imagen3 {
+        width: 280px;
+    }
+
+    .imagenFondo {
+        height: 220px;
+    }
+
+    .bloqueGris {
+        width: 450px;
+        height: 200px;
+
+    }
+
+    .titulobGris {
+        font-size: 12px;
+        padding: 10px;
+    }
+
+    .textobGris {
+        font-size: 10px;
+        padding: 5px;
+    }
+
+
+    header {
+        margin: 15px;
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    .logo_nissan {
+        width: 100px;
+
+
+    }
+
+    .logo {
+        display: flex;
+        margin: 0 auto;
+        align-items: center;
+    }
+
+    .footer {
+        height: 450px;
+    }
+
+    .ultimoFooter {
+        display: flex;
+        justify-content: center;
+        justify-content: space-around;
+        overflow: hidden;
+    }
+
+    .uno {
+        margin-left: 20px;
+        margin-top: 10px;
+    }
+
+    .dos {
+        margin-left: 20px;
+        margin-top: 10px;
+    }
+
+    .tres {
+        margin-left: 20px;
+        margin-top: 10px;
+    }
+
+    .cuatrop {
+        margin-left: 20px;
+        margin-top: 10px;
+    }
+
+    .logo_autoselectpro {
+        left: 85%;
+    }
+
+    .textPrefooter {
+
+        margin-left: 100px;
+
+    }
+
 }

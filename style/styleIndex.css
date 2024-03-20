@@ -462,11 +462,118 @@ body {
 
 /***********************************BOTON CHAT*******************************************/
 
-.logo_autoselectpro {
+/*boton chatbot*/
+#container-chatbot {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: start;
+    width: 100%;
+    height: 400px;
+    margin-top: 100px;
+}
+
+#chatbot-title {
+    width: 280px;
+    height: 200px;
+    font-size: 40px;
+    font-weight: 900;
+    text-align: center;
+    font-style: italic;
+    text-transform: uppercase;
+    border-top: rgba(195, 33, 33, 1) 10px solid;
+}
+
+#chatbot-data {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    justify-content: start;
+    width: 100%;
+}
+
+#logo-chat {
+    margin: 50px 0px 50px 0px;
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    background-image: url("../img/logo_AutoSelectPro-fotor-2024021317942.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 0px center;
+    border-color: transparent;
     position: fixed;
-    top: 85%;
+    top: 80%;
     left: 92%;
     z-index: 9999;
+}
+
+#chatbot-form {
+    display: none;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 350px;
+    height: 530px;
+    margin-bottom: 170px;
+    background-color: gray;
+    border-radius: 2%;
+    padding: 50px;
+    color: white;
+    position: fixed;
+    top: 30%;
+    left: 70%;
+}
+
+.chatbot-form-user {
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+    align-items: end;
+    width: 100%;    
+    margin-bottom: 10px;
+}
+
+.chatbot-form-bot {
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: start;   
+    width: 100%;    
+    margin-bottom: 10px;
+}
+
+.chatbot-text-user {
+    width: 65%;
+    margin-right: 60px;
+    letter-spacing: 3px;
+    word-spacing: 4px;
+    font-weight: 900;
+    text-align: end;
+}
+
+.chatbot-text-bot {
+    width: 65%;
+    margin-left: 60px;
+    letter-spacing: 3px;
+    word-spacing: 4px;
+    font-weight: 900;
+}
+
+.chatbot-img {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;   
+}
+
+#chatbot-button {
+    width: 250px;
+    height: 38px;
+    color: white;
+    font-style: italic;
+    font-weight: 900;
+    border-color: transparent;
+    background: rgba(190, 7, 7, 0.44);
 }
 
 /***********************************FOOTER*******************************************/
