@@ -13,6 +13,7 @@
         crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link rel="shortcut icon" href="../resources/icons/nissan.ico" />
     <script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script>
+
 </head>
 
 <body>
@@ -85,45 +86,43 @@
         <div class="menu_automoviles">
             <ul class="lista_automoviles">
                 <li>
-                    <a href="" class="a_automoviles">
-                        <h2 class="texto_automoviles --destacados" id="destacados">
-                            DESTACADOS
-                        </h2>
+                    <a href="javascript:void(0)" class="a_automoviles texto_automoviles --destacados" id="destacados">
+                        DESTACADOS
                     </a>
                 </li>
                 <li>
-                    <a href="#" class="a_automoviles">
-                        <h2 class="texto_automoviles" id="todos">TODOS</h2>
+                    <a href="javascript:void(0)" class="a_automoviles texto_automoviles" id="todos">
+                        TODOS
                     </a>
                 </li>
                 <li>
-                    <a href="#" class="a_automoviles">
-                        <h2 class="texto_automoviles" id="automoviles">AUTOMÓVILES</h2>
+                    <a href="javascript:void(0)" class="a_automoviles texto_automoviles" id="automoviles">
+                        AUTOMÓVILES
                     </a>
                 </li>
                 <li>
-                    <a href="#" class="a_automoviles">
-                        <h2 class="texto_automoviles" id="camionetas">CAMIONETAS</h2>
+                    <a href="javascript:void(0)" class="a_automoviles texto_automoviles" id="camionetas">
+                        CAMIONETAS
                     </a>
                 </li>
                 <li>
-                    <a href="#" class="a_automoviles">
-                        <h2 class="texto_automoviles" id="electricos">ELÉCTRICOS</h2>
+                    <a href="javascript:void(0)" class="a_automoviles texto_automoviles" id="electricos">
+                        ELÉCTRICOS
                     </a>
                 </li>
                 <li>
-                    <a href="#" class="a_automoviles">
-                        <h2 class="texto_automoviles" id="pick_ups">PICK UPS</h2>
+                    <a href="javascript:void(0)" class="a_automoviles texto_automoviles" id="pickups">
+                        PICK UPS
                     </a>
                 </li>
                 <li>
-                    <a href="#" class="a_automoviles">
-                        <h2 class="texto_automoviles" id="utilitarios">UTILITARIOS</h2>
+                    <a href="javascript:void(0)" class="a_automoviles texto_automoviles" id="utilitarios">
+                        UTILITARIOS
                     </a>
                 </li>
                 <li>
-                    <a href="#" class="a_automoviles">
-                        <h2 class="texto_automoviles" id="e_power">E-POWER</h2>
+                    <a href="javascript:void(0)" class="a_automoviles texto_automoviles" id="epower">
+                        E-POWER
                     </a>
                 </li>
             </ul>
@@ -131,7 +130,7 @@
         <div class="automoviles">
             <div class="section-header"><a href="#" title="Destacados" class="header-link">Destacados</a>
             </div>
-            <div class="tabs-content">
+            <div class="tabs-content" id="destacados_content">
                 <div class="vehicles-container">
                     <div class="carrito_boton">
                         <a class="a_carritos" href="https://www.nissan.com.co/vehiculos/nuevos/versa.html"><img
@@ -176,7 +175,7 @@
             </div>
             <div class="section-header"><a href="#" title="Todos" class="header-link">Todos</a>
             </div>
-            <div class="tabs-content">
+            <div class="tabs-content" id="todos_content">
                 <div class="vehicles-container">
                     <div class="carrito_boton">
                         <a class="a_carritos" href="https://www.nissan.com.co/vehiculos/nuevos/march.html"><img
@@ -263,33 +262,31 @@
             <div class="section-header"><a href="#" title="Automoviles"
                     class="header-link active-section">Automoviles</a>
             </div>
-            <div class="tabs-content">
+            <div class="tabs-content" id="automoviles_content">
                 <div class="vehicles-container">
-                    <div class="vehicles-container">
-                        <div class="carrito_boton">
-                            <a class="a_carritos" href="https://www.nissan.com.co/vehiculos/nuevos/march.html"><img
-                                    class="img_carritos" src="../img/index/march.png" alt="" />
-                                <p class="p_carritos">MARCH</p>
-                            </a>
-                        </div>
-                        <div class="carrito_boton">
-                            <a class="a_carritos" href="https://www.nissan.com.co/vehiculos/nuevos/versa.html"><img
-                                    class="img_carritos" src="../img/index/versa.jpg" alt="" />
-                                <p class="p_carritos">VERSA</p>
-                            </a>
-                        </div>
-                        <div class="carrito_boton">
-                            <a class="a_carritos" href="https://www.nissan.com.co/vehiculos/nuevos/sentra.html"><img
-                                    class="img_carritos" src="../img/index/sentra.jpg" alt="" />
-                                <p class="p_carritos">SENTRA</p>
-                            </a>
-                        </div>
+                    <div class="carrito_boton">
+                        <a class="a_carritos" href="https://www.nissan.com.co/vehiculos/nuevos/march.html"><img
+                                class="img_carritos" src="../img/index/march.png" alt="" />
+                            <p class="p_carritos">MARCH</p>
+                        </a>
+                    </div>
+                    <div class="carrito_boton">
+                        <a class="a_carritos" href="https://www.nissan.com.co/vehiculos/nuevos/versa.html"><img
+                                class="img_carritos" src="../img/index/versa.jpg" alt="" />
+                            <p class="p_carritos">VERSA</p>
+                        </a>
+                    </div>
+                    <div class="carrito_boton">
+                        <a class="a_carritos" href="https://www.nissan.com.co/vehiculos/nuevos/sentra.html"><img
+                                class="img_carritos" src="../img/index/sentra.jpg" alt="" />
+                            <p class="p_carritos">SENTRA</p>
+                        </a>
                     </div>
                 </div>
             </div>
             <div class="section-header"><a href="#" title="Camionetas" class="header-link">Camionetas</a>
             </div>
-            <div class="tabs-content">
+            <div class="tabs-content" id="camionetas_content">
                 <div class="vehicles-container">
                     <div class="carrito_boton">
                         <a class="a_carritos" href="https://www.nissan.com.co/vehiculos/nuevos/kicks.html"><img
@@ -332,7 +329,7 @@
             </div>
             <div class="section-header"><a href="#" title="Electricos" class="header-link">Eléctricos</a>
             </div>
-            <div class="tabs-content">
+            <div class="tabs-content" id="electricos_content">
                 <div class="vehicles-container">
                     <div class="carrito_boton">
                         <a class="a_carritos" href="https://www.nissan.com.co/vehiculos/nuevos/leaf.html"><img
@@ -344,7 +341,7 @@
             </div>
             <div class="section-header"><a href="#" title="Pick ups" class="header-link">Pick ups</a>
             </div>
-            <div class="tabs-content">
+            <div class="tabs-content" id="pickups_content">
                 <div class="vehicles-container">
                     <div class="carrito_boton">
                         <a class="a_carritos"
@@ -363,7 +360,7 @@
                 </div>
             </div>
             <div class="section-header"><a href="#" title="Utilitarios" class="header-link">Utilitarios</a></div>
-            <div class="tabs-content">
+            <div class="tabs-content" id="utilitarios_content">
                 <div class="vehicles-container">
                     <div class="carrito_boton">
                         <a class="a_carritos" href="https://www.nissan.com.co/vehiculos/nuevos/urvan.html"><img
@@ -374,7 +371,7 @@
                 </div>
             </div>
             <div class="section-header"><a href="#" title="E-POWER" class="header-link">E-POWER</a></div>
-            <div class="tabs-content">
+            <div class="tabs-content" id="epower_content">
                 <div class="vehicles-container">
                     <div class="carrito_boton">
                         <a class="a_carritos" href="https://www.nissan.com.co/vehiculos/nuevos/xtrail-epower.html"><img
@@ -585,5 +582,6 @@
     </section>
     <script src="../logic/main.js"></script>
 </body>
+<script src="../logic/index.js"></script>
 
 </html>
