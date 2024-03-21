@@ -4,7 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>NOSOTROS</title>
+    <title>CONTACTENOS</title>
     <link rel="stylesheet" href="../style/styleContactenos.css">
     <link rel="shortcut icon" href="../resources/icons/nissan.ico">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
@@ -46,7 +46,7 @@
             7:00 a.m. a 1:00 p.m. los sábados, o si lo deseas puedes enviarnos un mensaje <br>
             en el siguiente formulario:
         </p>
-        <form "form" action="/enviar" method="post">
+        <form class="form" action="/enviar" method="post">
             <label for="nombre">Nombre completo *</label>
             <input type="text" id="nombre" name="nombre" required><br>
 
@@ -57,14 +57,14 @@
             <input type="text" id="apellido2" name="apellido2" required><br>
 
             <label for="genero">Género</label>
-            <select id="genero" name="genero">
+            <select class="input_select"  id="genero" name="genero">
                 <option value="Seleccione">Seleccione</option>
                 <option value="masculino">Masculino</option>
                 <option value="femenino">Femenino</option>
             </select><br>
 
             <label for="tipoDocumento">Tipo de Documento *</label>
-            <select id="tipoDocumento" name="tipoDocumento">
+            <select class="input_select" id="tipoDocumento" name="tipoDocumento">
                 <option value="Seleciona tipo">Seleciona tipo</option>
                 <option value="Cedula de ciudadania">Cedula de ciudadania</option>
                 <option value="Cedula de extranjeria">Cedula de extranjeria</option>
@@ -76,14 +76,14 @@
             <input type="text" id="numeroDocumento" name="numeroDocumento" required><br>
 
             <label for="correo">Correo Electrónico</label>
-            <input type="email" id="correo" name="correo" required><br>
+            <input class="input_notext" type="email" id="correo" name="correo" required><br>
 
             <label for="celular">Celular *
             </label>
-            <input type="tel" id="celular" name="celular" required><br>
+            <input class="input_notext" type="tel" id="celular" name="celular" required><br>
 
             <label for="Departamento">Departamento *</label>
-            <select id="Departamento" name="Departamento">
+            <select class="input_select" id="Departamento" name="Departamento">
                 <option value="Departamento">Departamento</option>
                 <option value="Antioquia">Antioquia</option>
                 <option value="Atlantico">Atlantico</option>
@@ -92,7 +92,7 @@
             </select><br>
 
             <label for="Ciudad">Ciudad *</label>
-            <select id="Ciudad" name="Ciudad">
+            <select class="input_select" id="Ciudad" name="Ciudad">
                 <option value="Ciudad">Ciudad</option>
                 <option value="Copacabana">Copacabana</option>
                 <option value="Barranquilla">Barranquilla</option>
@@ -102,24 +102,20 @@
 
             <label for="mensaje">Mensaje</label>
             <textarea id="mensaje" name="mensaje" rows="4" required></textarea><br>
-            <form>
-                <hr>
-            </form>
-
-            <p class="leido">Autorización de tratamiento de datos personales
-                <br>
-                <br>
-                <input type="checkbox" id="acceptTerms"><label for="acceptTerms">
-                    <p class="leido2">He leido y acepto las Politicas de privacidad *
-                </label>
-            </p>
-            </p>
+            <hr>
             <br>
-
             <div class="container">
+                <p class="leido">
+                    <input type="checkbox" id="acceptTerms" /> Autorización de tratamiento de datos personales
+                </p>
+                <br>
+                <p class="leido2">He leido y acepto las Politicas de privacidad *</p>
+                <br>
+
                 <button class="boton-enviar">ENVIAR</button>
+                <p class="obligatorio">* Campo obligatorio</p>
             </div>
-            <p class="obligatorio">* Campo obligatorio</p>
+
         </form>
     </div>
     <!--Footer-->
