@@ -9,7 +9,7 @@
 .container {
     display: flex;
     justify-content: space-between;
-    padding: 10px;
+    padding-top: 10px;
     /*border: 1px solid violet;*/
     padding-left: 33px;
 }
@@ -22,7 +22,7 @@ header {
     background-repeat: no-repeat;
     background-size: cover;
     /* background-size: 100% auto; */
-    height: 700px;
+    height: 600px;
 }
 
 .logo_nissan {
@@ -60,14 +60,11 @@ header {
 }
 
 /*************************body********************/
-body {
-    border: 1px solid red;
-}
 
 .autoselectpro {
     display: flex;
     justify-content: end;
-    margin-top: -100px;
+    margin-top: -90px;
     background-color: rgba(253, 253, 253, 0.116);
 }
 
@@ -521,8 +518,8 @@ body {
     padding: 50px;
     color: white;
     position: fixed;
-    top: 30%;
-    left: 70%;
+    top: 5%;
+    left: 65%;
 }
 
 .chatbot-form-user {
@@ -530,7 +527,7 @@ body {
     flex-direction: column;
     justify-content: end;
     align-items: end;
-    width: 100%;    
+    width: 100%;
     margin-bottom: 10px;
 }
 
@@ -538,8 +535,8 @@ body {
     display: flex;
     flex-direction: column;
     justify-content: start;
-    align-items: start;   
-    width: 100%;    
+    align-items: start;
+    width: 100%;
     margin-bottom: 10px;
 }
 
@@ -563,7 +560,7 @@ body {
 .chatbot-img {
     width: 50px;
     height: 50px;
-    border-radius: 50%;   
+    border-radius: 50%;
 }
 
 #chatbot-button {
@@ -819,6 +816,18 @@ body {
     .logo_autoselectpro {
         left: 90%;
     }
+
+    #logo-chat {
+        top: 80%;
+        left: 89%;
+        width: 80px;
+        height: 80px;
+    }
+
+    #chatbot-form {
+        top: 20%;
+        left: 40%;
+    }
 }
 
 /*TABLETS*/
@@ -829,7 +838,6 @@ body {
         padding: 15px;
         display: flex;
         flex-direction: column;
-        border: 1px solid rgb(50, 187, 103);
         background-image: url(../img/index/banner_mediano.jpg);
         background-size: cover;
         height: 700px;
@@ -942,27 +950,73 @@ body {
     .textPrefooter {
         margin-left: 100px;
     }
+
+    #logo-chat {
+        top: 80%;
+        left: 89%;
+        width: 80px;
+        height: 80px;
+    }
+
+    #chatbot-form {
+        top: 20%;
+        left: 30%;
+    }
 }
 
 /*CELULARES*/
 
-@media (width<=600px) {
+@media screen and (min-width: 481px) and (max-width: 582px) {
+
+    .container {
+        display: flex;
+        flex-direction: column;
+        padding: 10px;
+        /*border: 1px solid violet;*/
+        padding-left: 33px;
+        width: 90%;
+    }
 
     header {
         padding: 15px;
         display: flex;
         flex-direction: column;
         background-image: url(../img/index/banner_pequeno.jpg);
+        background-repeat: no-repeat;
         background-size: cover;
-        height: 950px;
+        /* background-size: 100% auto; */
+        height: 980px;
+    }
+
+    .menu {
+        width: 90%;
+    }
+
+    .logo_nissan {
+        width: 130px;
+    }
+
+    .lista_menu {
+        display: flex;
+        justify-content: space-around;
+        flex-wrap: wrap;
+        width: 100%;
+        padding-top: 20px;
+    }
+
+    .autoselectpro {
+        margin-top: -120px;
+    }
+
+    .autoselectpro_link {
+        padding-right: 16px;
+        margin-right: 10px;
     }
 
     .section_banner {
         padding-top: 65px;
         margin: 0;
     }
-
-
 
     .logo {
         display: flex;
@@ -1045,10 +1099,121 @@ body {
         margin-left: 100px;
     }
 
+    #logo-chat {
+        top: 80%;
+        left: 80%;
+        width: 80px;
+        height: 80px;
+    }
 
+    #chatbot-form {
+        top: 20%;
+        left: 15%;
+    }
 }
 
-/* @media (width<=530px) {
+@media screen and (min-width: 200px) and (max-width: 480px) {
+    .container {
+        display: flex;
+        flex-direction: column;
+        padding: 10px;
+        padding-left: 33px;
+        width: 90%;
+        margin-bottom: 30px;
+    }
+
+    header {
+        padding: 15px;
+        display: flex;
+        flex-direction: column;
+        background-image: url(../img/index/banner_pequeno.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+        height: 980px;
+    }
+
+    .menu {
+        width: 95%;
+    }
+
+    .item_menu {
+        padding-left: 5px;
+        padding-bottom: 10px;
+    }
+
+    .logo_nissan {
+        width: 130px;
+    }
+
+    .lista_menu {
+        display: flex;
+        justify-content: space-around;
+        flex-wrap: wrap;
+        width: 100%;
+        padding: 20px 0;
+    }
+
+    .autoselectpro {
+        margin-top: -210px;
+        margin-right: -20px;
+    }
+
+    .autoselectpro_link {
+        padding-right: 16px;
+        margin-right: 10px;
+    }
+
+    .section_banner {
+        padding-top: 65px;
+        margin: 0;
+    }
+
+    .p1_banner {
+        padding-top: 20px;
+    }
+
+    .logo {
+        display: flex;
+        margin: 0 auto;
+        align-items: center;
+    }
+
+    .menu_automoviles {
+        margin-left: 10px;
+        overflow-x: auto;
+        width: 95%;
+    }
+
+    .menu_automoviles::-webkit-scrollbar {
+        height: 2px;
+        background-color: #f0f0f0;
+    }
+
+    .menu_automoviles::-webkit-scrollbar-thumb {
+        background-color: rgb(195, 0, 47);
+        border-radius: 5px;
+    }
+
+    .rayita {
+        margin-left: 10px;
+    }
+
+    .titulo_redes_sociales {
+        margin-left: 10px;
+    }
+
+    .titulo_noticias {
+        margin-left: 10px;
+    }
+
+    .noticia_singular_titulo {
+        width: 90%;
+    }
+
+    .img_noticia_singular {
+        width: 100%;
+    }
+
     .footer {
         height: 450px;
     }
@@ -1087,45 +1252,16 @@ body {
     .textPrefooter {
         margin-left: 100px;
     }
+
+    #logo-chat {
+        top: 80%;
+        left: 80%;
+        width: 70px;
+        height: 70px;
     }
 
-    @media (width<465px) {
-    .footer {
-        height: 450px;
+    #chatbot-form {
+        top: 20%;
+        left: 1%;
     }
-
-    .ultimoFooter {
-        display: flex;
-        justify-content: center;
-        justify-content: space-between;
-        overflow: hidden;
-    }
-
-    .uno {
-        margin-left: 20px;
-        margin-top: 10px;
-    }
-
-    .dos {
-        margin-left: 20px;
-        margin-top: 10px;
-    }
-
-    .tres {
-        margin-left: 20px;
-        margin-top: 10px;
-    }
-
-    .cuatrop {
-        margin-left: 20px;
-        margin-top: 10px;
-    }
-
-    .logo_autoselectpro {
-        left: 85%;
-    }
-
-    .textPrefooter {
-        margin-left: 100px;
-    }
-    } */
+}
