@@ -148,6 +148,7 @@ header {
 .lista_automoviles {
     display: flex;
     list-style: none;
+    white-space: nowrap;
 }
 
 .texto_automoviles {
@@ -759,7 +760,7 @@ header {
 
 /*PORTATILES*/
 
-@media screen and (min-width: 769px) and (max-width: 1300px) {
+@media screen and (min-width: 768px) and (max-width: 1300px) {
 
     header {
         height: 500px;
@@ -770,7 +771,7 @@ header {
     }
 
     .autoselectpro {
-        margin-top: -77px;
+        margin-top: -70px;
     }
 
     .info_banner {
@@ -783,7 +784,25 @@ header {
     }
 
     .menu_automoviles {
+        margin-left: 10px;
+        overflow-x: auto;
+        overflow-y: hidden;
+        width: 95%;
+    }
+
+    .menu_automoviles {
         margin-left: 10px
+    }
+
+    .menu_automoviles::-webkit-scrollbar {
+        height: 2px;
+        background-color: #f0f0f0;
+    }
+
+    .menu_automoviles::-webkit-scrollbar-thumb {
+        background-color: rgb(195, 0, 47);
+        ;
+        border-radius: 5px;
     }
 
     .ultimoFooter {
@@ -825,14 +844,14 @@ header {
     }
 
     #chatbot-form {
-        top: 20%;
-        left: 40%;
+        top: 0;
+        left: 35%;
     }
 }
 
 /*TABLETS*/
 
-@media screen and (min-width: 583px) and (max-width: 768px) {
+@media screen and (min-width: 583px) and (max-width: 767px) {
 
     header {
         padding: 15px;
@@ -871,6 +890,7 @@ header {
     .menu_automoviles {
         margin-left: 10px;
         overflow-x: auto;
+        overflow-y: hidden;
         width: 95%;
     }
 
@@ -1027,6 +1047,7 @@ header {
     .menu_automoviles {
         margin-left: 10px;
         overflow-x: auto;
+        overflow-y: hidden;
         width: 95%;
     }
 
@@ -1181,6 +1202,7 @@ header {
     .menu_automoviles {
         margin-left: 10px;
         overflow-x: auto;
+        overflow-y: hidden;
         width: 95%;
     }
 
@@ -1261,7 +1283,7 @@ header {
     }
 
     #chatbot-form {
-        top: 20%;
+        top: 0%;
         left: 1%;
     }
 }
